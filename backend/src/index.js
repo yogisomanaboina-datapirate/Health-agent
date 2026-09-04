@@ -49,10 +49,14 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(config.port, () => {
-  console.log(`=======================================================`);
-  console.log(` HealthTrack AI Backend running on port ${config.port}`);
-  console.log(` AI Provider: Featherless (${config.featherless.model})`);
-  console.log(` Ready to process autonomous multi-agent clinical tasks`);
-  console.log(`=======================================================`);
-});
+if (process.env.VERCEL !== '1' && process.env.NODE_ENV !== 'test') {
+  app.listen(config.port, () => {
+    console.log(`=======================================================`);
+    console.log(` HealthTrack AI Backend running on port ${config.port}`);
+    console.log(` AI Provider: Featherless (${config.featherless.model})`);
+    console.log(` Ready to process autonomous multi-agent clinical tasks`);
+    console.log(`=======================================================`);
+  });
+}
+
+export default app;

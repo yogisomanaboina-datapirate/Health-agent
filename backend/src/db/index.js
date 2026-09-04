@@ -5,35 +5,55 @@ import { initialSeedData } from './seedData.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DB_FILE = path.join(__dirname, 'database.json');
+const DB_FILE = process.env.VERCEL
+  ? path.join('/tmp', 'database.json')
+  : path.join(__dirname, 'database.json');
+
+// In-memory cache fallback for serverless read-only environments
+let memoryDb = null;
 
 // Initialize database file if it does not exist
 function initDb() {
-  if (!fs.existsSync(DB_FILE)) {
-    fs.writeFileSync(DB_FILE, JSON.stringify(initialSeedData, null, 2), 'utf-8');
+  try {
+    if (!fs.existsSync(DB_FILE)) {
+      fs.writeFileSync(DB_FILE, JSON.stringify(initialSeedData, null, 2), 'utf-8');
+    }
+  } catch (err) {
+    console.warn('Filesystem read-only or error initializing DB file, using in-memory store:', err.message);
+    if (!memoryDb) {
+      memoryDb = JSON.parse(JSON.stringify(initialSeedData));
+    }
   }
 }
 
 initDb();
 
 export function getDb() {
+  if (memoryDb) return memoryDb;
   try {
     const raw = fs.readFileSync(DB_FILE, 'utf-8');
     return JSON.parse(raw);
   } catch (err) {
-    console.error('Error reading DB file, resetting to seed data:', err);
-    fs.writeFileSync(DB_FILE, JSON.stringify(initialSeedData, null, 2), 'utf-8');
-    return { ...initialSeedData };
+    if (fs.existsSync(path.join(__dirname, 'database.json'))) {
+      try {
+        const raw = fs.readFileSync(path.join(__dirname, 'database.json'), 'utf-8');
+        return JSON.parse(raw);
+      } catch (e) {}
+    }
+    console.warn('Error reading DB file, using seed data in memory:', err.message);
+    memoryDb = JSON.parse(JSON.stringify(initialSeedData));
+    return memoryDb;
   }
 }
 
 export function saveDb(data) {
+  memoryDb = data;
   try {
     fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2), 'utf-8');
     return true;
   } catch (err) {
-    console.error('Error saving DB file:', err);
-    return false;
+    // Expected on serverless environments
+    return true;
   }
 }
 
