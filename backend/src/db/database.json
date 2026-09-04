@@ -1,0 +1,3521 @@
+{
+  "user": {
+    "id": "usr_priya_01",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@email.com",
+    "password": "password123",
+    "phone": "+91 98765 43210",
+    "dob": "29 May 1996",
+    "age": 29,
+    "gender": "Female",
+    "bloodGroup": "O+",
+    "address": "Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+    "emergencyContact": "+91 91234 56789 (Mother)",
+    "memberSince": "20 May 2025",
+    "healthTrackId": "HTA-293847",
+    "profileCompletion": 92,
+    "healthScore": 78,
+    "healthScoreStatus": "Good",
+    "healthScoreTrend": "+6 points from last month",
+    "focusArea": "Diabetic & Preventive Health",
+    "allergies": "Sulfonamides, Seasonal Dust",
+    "chronicConditions": [
+      "Mild Prediabetes",
+      "Seasonal Rhinitis"
+    ]
+  },
+  "stats": {
+    "healthScore": 78,
+    "recordsCount": 20,
+    "activeMedsCount": 20,
+    "upcomingFollowUpsCount": 10,
+    "newInsightsCount": 3
+  },
+  "records": [
+    {
+      "id": "rec_b143003e",
+      "title": "Comprehensive Metabolic & Blood Panel",
+      "type": "Lab Report",
+      "provider": "HealthTrack Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "04:11 am",
+      "status": "Analyzed by AI",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Biomarkers parsed and analyzed by AI",
+      "isAbnormal": true,
+      "details": {
+        "overallImpression": "Your report has been analyzed. The majority of biomarker parameters fall within acceptable physiological baselines.",
+        "riskLevel": "LOW_RISK",
+        "biomarkers": [
+          {
+            "name": "Hemoglobin (Hb)",
+            "value": "13.2",
+            "unit": "g/dL",
+            "referenceRange": "12.0 - 15.0",
+            "status": "Normal",
+            "clinicalMeaning": "Essential protein carrying oxygen to tissues."
+          },
+          {
+            "name": "WBC Count",
+            "value": "6,800",
+            "unit": "cells/µL",
+            "referenceRange": "4,000 - 11,000",
+            "status": "Normal",
+            "clinicalMeaning": "Immune defense cells guarding against infection."
+          },
+          {
+            "name": "Platelet Count",
+            "value": "1.85",
+            "unit": "lakh/µL",
+            "referenceRange": "1.50 - 4.50",
+            "status": "Normal",
+            "clinicalMeaning": "Blood clotting and vessel repair cells."
+          },
+          {
+            "name": "Eosinophils",
+            "value": "6",
+            "unit": "%",
+            "referenceRange": "1 - 6",
+            "status": "Borderline",
+            "clinicalMeaning": "Immune cells active in allergic responses."
+          }
+        ],
+        "abnormalFindings": [
+          "Eosinophils at 6% (borderline upper threshold)."
+        ],
+        "potentialCauses": [
+          "Seasonal environmental allergies or mild airway hypersensitivity."
+        ],
+        "questionsForDoctor": [
+          "Does the borderline eosinophil count warrant an allergy test?",
+          "When should I repeat this complete blood count?",
+          "Are there any specific dietary adjustments you recommend?"
+        ],
+        "actionableRecommendations": [
+          "Maintain consistent hydration (2-2.5L daily).",
+          "Monitor seasonal allergy triggers.",
+          "Re-evaluate in 3 months if allergy symptoms persist."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_b1cdd0ed",
+      "title": "Discharge_Summary_Lifecare",
+      "type": "Lab Report",
+      "provider": "City Diagnostic Lab",
+      "doctor": "Dr. Anil Mehta",
+      "date": "5 Sept 2026",
+      "time": "04:10 am",
+      "status": "Analyzed",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "Extracted Complete Blood Count report. Values generally within standard physiological limits.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_38993293",
+      "date": "5 Sept 2026",
+      "time": "03:57 am",
+      "status": "Analyzed",
+      "userId": "usr_priya_01",
+      "title": "Routine Automated Lab Test Verification",
+      "type": "Lab Report",
+      "provider": "Central Automated Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "summary": "Biomarkers verified within clinical reference ranges"
+    },
+    {
+      "id": "rec_7b3a59f5",
+      "title": "Comprehensive Metabolic & Blood Panel",
+      "type": "Lab Report",
+      "provider": "HealthTrack Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:39 am",
+      "status": "Analyzed by AI",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Biomarkers parsed and analyzed by AI",
+      "isAbnormal": true,
+      "details": {
+        "overallImpression": "Your report has been analyzed. The majority of biomarker parameters fall within acceptable physiological baselines.",
+        "riskLevel": "LOW_RISK",
+        "biomarkers": [
+          {
+            "name": "Hemoglobin (Hb)",
+            "value": "13.2",
+            "unit": "g/dL",
+            "referenceRange": "12.0 - 15.0",
+            "status": "Normal",
+            "clinicalMeaning": "Essential protein carrying oxygen to tissues."
+          },
+          {
+            "name": "WBC Count",
+            "value": "6,800",
+            "unit": "cells/µL",
+            "referenceRange": "4,000 - 11,000",
+            "status": "Normal",
+            "clinicalMeaning": "Immune defense cells guarding against infection."
+          },
+          {
+            "name": "Platelet Count",
+            "value": "1.85",
+            "unit": "lakh/µL",
+            "referenceRange": "1.50 - 4.50",
+            "status": "Normal",
+            "clinicalMeaning": "Blood clotting and vessel repair cells."
+          },
+          {
+            "name": "Eosinophils",
+            "value": "6",
+            "unit": "%",
+            "referenceRange": "1 - 6",
+            "status": "Borderline",
+            "clinicalMeaning": "Immune cells active in allergic responses."
+          }
+        ],
+        "abnormalFindings": [
+          "Eosinophils at 6% (borderline upper threshold)."
+        ],
+        "potentialCauses": [
+          "Seasonal environmental allergies or mild airway hypersensitivity."
+        ],
+        "questionsForDoctor": [
+          "Does the borderline eosinophil count warrant an allergy test?",
+          "When should I repeat this complete blood count?",
+          "Are there any specific dietary adjustments you recommend?"
+        ],
+        "actionableRecommendations": [
+          "Maintain consistent hydration (2-2.5L daily).",
+          "Monitor seasonal allergy triggers.",
+          "Re-evaluate in 3 months if allergy symptoms persist."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_040cd910",
+      "title": "Comprehensive Metabolic & Blood Panel",
+      "type": "Lab Report",
+      "provider": "HealthTrack Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:32 am",
+      "status": "Analyzed by AI",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Biomarkers parsed and analyzed by AI",
+      "isAbnormal": false,
+      "details": [
+        {
+          "name": "Hemoglobin",
+          "value": "13.2",
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.0",
+          "status": "Normal",
+          "clinicalMeaning": "Your hemoglobin level is within the normal range, indicating adequate oxygen-carrying capacity of your blood."
+        },
+        {
+          "name": "Total WBC Count",
+          "value": "6,800",
+          "unit": "/µL",
+          "referenceRange": "4,000 - 11,000",
+          "status": "Normal",
+          "clinicalMeaning": "Your white blood cell count is within the normal range, suggesting no immediate signs of infection or inflammation."
+        },
+        {
+          "name": "Platelet Count",
+          "value": "1.85 lakh",
+          "unit": "/µL",
+          "referenceRange": "1.50 - 4.50",
+          "status": "Normal",
+          "clinicalMeaning": "Your platelet count is within the normal range, indicating proper blood clotting function."
+        },
+        {
+          "name": "Fasting Blood Sugar",
+          "value": "118",
+          "unit": "mg/dL",
+          "referenceRange": "70 - 99",
+          "status": "High",
+          "clinicalMeaning": "Your fasting blood sugar is elevated, which could be a sign of prediabetes or early diabetes. This needs further evaluation."
+        },
+        {
+          "name": "Serum Creatinine",
+          "value": "0.9",
+          "unit": "mg/dL",
+          "referenceRange": "0.6 - 1.1",
+          "status": "Normal",
+          "clinicalMeaning": "Your serum creatinine level is within the normal range, indicating your kidneys are functioning well."
+        },
+        {
+          "name": "Total Cholesterol",
+          "value": "215",
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "status": "High",
+          "clinicalMeaning": "Your total cholesterol is elevated, which can increase the risk of heart disease. Lifestyle changes may be necessary."
+        },
+        {
+          "name": "LDL Cholesterol",
+          "value": "138",
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "status": "High",
+          "clinicalMeaning": "Your LDL cholesterol is elevated, which can contribute to plaque buildup in your arteries. Lifestyle modifications are recommended."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "value": "42",
+          "unit": "mg/dL",
+          "referenceRange": "> 40",
+          "status": "Normal",
+          "clinicalMeaning": "Your HDL cholesterol is within the normal range, which is beneficial for heart health."
+        },
+        {
+          "name": "ALT (SGPT)",
+          "value": "45",
+          "unit": "U/L",
+          "referenceRange": "7 - 35",
+          "status": "Borderline High",
+          "clinicalMeaning": "Your ALT level is slightly elevated, which could indicate liver inflammation or damage. Further investigation is needed."
+        },
+        {
+          "name": "Vitamin D (25-OH)",
+          "value": "28",
+          "unit": "ng/mL",
+          "referenceRange": "30 - 100",
+          "status": "Sub-optimal",
+          "clinicalMeaning": "Your vitamin D level is below the optimal range, which can affect bone health and immune function. Supplementation may be recommended."
+        }
+      ],
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_19742ee0",
+      "title": "Comprehensive Metabolic & Blood Panel",
+      "type": "Lab Report",
+      "provider": "HealthTrack Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:31 am",
+      "status": "Analyzed by AI",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Biomarkers parsed and analyzed by AI",
+      "isAbnormal": true,
+      "details": {
+        "overallImpression": "Your recent blood test shows some elevated levels that we need to monitor. We will discuss these in more detail during your next visit.",
+        "riskLevel": "MODERATE_RISK",
+        "biomarkers": [
+          {
+            "name": "Hemoglobin",
+            "value": "13.2",
+            "unit": "g/dL",
+            "referenceRange": "12.0 - 15.0",
+            "status": "Normal",
+            "clinicalMeaning": "Your hemoglobin level is within the normal range, indicating adequate oxygen-carrying capacity in your blood."
+          },
+          {
+            "name": "Fasting Glucose",
+            "value": "118",
+            "unit": "mg/dL",
+            "referenceRange": "70 - 99",
+            "status": "High",
+            "clinicalMeaning": "Your fasting glucose level is elevated, which could indicate prediabetes or early signs of diabetes. This needs to be monitored closely."
+          },
+          {
+            "name": "Total Cholesterol",
+            "value": "215",
+            "unit": "mg/dL",
+            "referenceRange": "< 200",
+            "status": "High",
+            "clinicalMeaning": "Your total cholesterol level is above the recommended range, which can increase the risk of heart disease."
+          },
+          {
+            "name": "LDL",
+            "value": "138",
+            "unit": "mg/dL",
+            "referenceRange": "< 100",
+            "status": "High",
+            "clinicalMeaning": "Your LDL cholesterol level is elevated, which can contribute to plaque buildup in your arteries."
+          },
+          {
+            "name": "Creatinine",
+            "value": "0.9",
+            "unit": "mg/dL",
+            "referenceRange": "0.6 - 1.1",
+            "status": "Normal",
+            "clinicalMeaning": "Your creatinine level is within the normal range, indicating your kidneys are functioning well."
+          },
+          {
+            "name": "ALT",
+            "value": "45",
+            "unit": "U/L",
+            "referenceRange": "7 - 35",
+            "status": "Borderline",
+            "clinicalMeaning": "Your ALT level is slightly elevated, which could indicate liver inflammation or damage. This needs to be monitored."
+          }
+        ],
+        "abnormalFindings": [
+          "- Fasting Glucose: 118 mg/dL (High)",
+          "- Total Cholesterol: 215 mg/dL (High)",
+          "- LDL: 138 mg/dL (High)",
+          "- ALT: 45 U/L (Borderline)"
+        ],
+        "potentialCauses": [
+          "Unhealthy diet high in saturated fats and sugars",
+          "Lack of physical activity",
+          "Genetic predisposition",
+          "Stress or other lifestyle factors"
+        ],
+        "questionsForDoctor": [
+          "What lifestyle changes can I make to improve my fasting glucose and cholesterol levels?",
+          "Are there any dietary modifications I should consider to lower my cholesterol?",
+          "How often should I have these tests repeated to monitor my progress?"
+        ],
+        "actionableRecommendations": [
+          "Increase physical activity to at least 150 minutes of moderate aerobic activity per week.",
+          "Adopt a heart-healthy diet rich in fruits, vegetables, whole grains, and lean proteins.",
+          "Monitor your blood pressure and weight regularly, as these can also impact your cholesterol and glucose levels."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_4b7f1d51",
+      "title": "Comprehensive Metabolic & Blood Panel",
+      "type": "Lab Report",
+      "provider": "HealthTrack Diagnostic Vault",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:30 am",
+      "status": "Analyzed by AI",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Biomarkers parsed and analyzed by AI",
+      "isAbnormal": false,
+      "details": [
+        {
+          "name": "Hemoglobin",
+          "value": "13.2",
+          "unit": "g/dL",
+          "referenceRange": "12.0 - 15.0",
+          "status": "Normal",
+          "clinicalMeaning": "Your red blood cells are carrying oxygen effectively."
+        },
+        {
+          "name": "Total WBC Count",
+          "value": "6,800",
+          "unit": "/µL",
+          "referenceRange": "4,000 - 11,000",
+          "status": "Normal",
+          "clinicalMeaning": "Your white blood cell count is within the normal range, indicating no immediate infection or inflammation."
+        },
+        {
+          "name": "Platelet Count",
+          "value": "1.85 lakh",
+          "unit": "/µL",
+          "referenceRange": "1.50 - 4.50",
+          "status": "Normal",
+          "clinicalMeaning": "Your platelets are within the normal range, which is good for blood clotting."
+        },
+        {
+          "name": "Fasting Blood Sugar",
+          "value": "118",
+          "unit": "mg/dL",
+          "referenceRange": "70 - 99",
+          "status": "High",
+          "clinicalMeaning": "Your fasting blood sugar is elevated, which could indicate prediabetes or early signs of diabetes."
+        },
+        {
+          "name": "Serum Creatinine",
+          "value": "0.9",
+          "unit": "mg/dL",
+          "referenceRange": "0.6 - 1.1",
+          "status": "Normal",
+          "clinicalMeaning": "Your kidney function is within the normal range."
+        },
+        {
+          "name": "Total Cholesterol",
+          "value": "215",
+          "unit": "mg/dL",
+          "referenceRange": "< 200",
+          "status": "High",
+          "clinicalMeaning": "Your cholesterol levels are elevated, which can increase the risk of heart disease."
+        },
+        {
+          "name": "LDL Cholesterol",
+          "value": "138",
+          "unit": "mg/dL",
+          "referenceRange": "< 100",
+          "status": "High",
+          "clinicalMeaning": "Your LDL cholesterol is high, which can contribute to plaque buildup in your arteries."
+        },
+        {
+          "name": "HDL Cholesterol",
+          "value": "42",
+          "unit": "mg/dL",
+          "referenceRange": "> 40",
+          "status": "Normal",
+          "clinicalMeaning": "Your HDL cholesterol is within the normal range, which is good for heart health."
+        },
+        {
+          "name": "ALT (SGPT)",
+          "value": "45",
+          "unit": "U/L",
+          "referenceRange": "7 - 35",
+          "status": "Borderline High",
+          "clinicalMeaning": "Your liver enzymes are slightly elevated, which could indicate liver inflammation or damage."
+        },
+        {
+          "name": "Vitamin D (25-OH)",
+          "value": "28",
+          "unit": "ng/mL",
+          "referenceRange": "30 - 100",
+          "status": "Sub-optimal",
+          "clinicalMeaning": "Your vitamin D levels are low, which can affect bone health and immune function."
+        }
+      ],
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_f2f05d75",
+      "title": "Prescription_Dr_Mehta",
+      "type": "Prescription",
+      "provider": "Not Specified",
+      "doctor": "DR. ANIL MEHTA (MBBS, MD - Internal Medicine)",
+      "date": "18 May 2025",
+      "time": "02:24 am",
+      "status": "Analyzed",
+      "category": "Prescriptions",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "Prescription for allergy and pain management along with vitamin supplementation.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_2a7f70b5",
+      "title": "Blood_Report_May2025",
+      "type": "Lab Report",
+      "provider": "CITY DIAGNOSTIC LABORATORY",
+      "doctor": "Dr. Anil Mehta",
+      "date": "20 May 2025",
+      "time": "02:23 am",
+      "status": "Analyzed",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "The Complete Blood Count (CBC) test results for Priya Sharma are within the normal reference ranges, indicating no immediate abnormalities.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_438b4732",
+      "title": "health",
+      "type": "Lab Report",
+      "provider": "HealthTrack Clinical Imaging & Pathology",
+      "doctor": "string",
+      "date": "05/09/2026",
+      "time": "02:23 am",
+      "status": "Analyzed",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "The lab report indicates normal hemoglobin levels for the patient.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_46213986",
+      "title": "Test_Blood_Report",
+      "type": "Lab Report",
+      "provider": "City Diagnostic Lab",
+      "doctor": "Dr. Anil Mehta",
+      "date": "5 Sept 2026",
+      "time": "02:18 am",
+      "status": "Analyzed",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_84b095fa",
+      "title": "Lipid Profile Panel",
+      "type": "Lab Report",
+      "provider": "Apollo Diagnostics",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:07 am",
+      "status": "Verified & Stored",
+      "category": "Lab Report",
+      "summary": "Clinical record stored and verified in patient vault.",
+      "isAbnormal": true,
+      "analysis": {
+        "overallImpression": "Your lipid profile shows mild hyperlipidemia, which means your cholesterol levels are slightly elevated. This is something to monitor, but it's not yet a cause for major concern.",
+        "riskLevel": "MODERATE_RISK",
+        "biomarkers": [
+          {
+            "name": "Total Cholesterol",
+            "value": "215",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 200 mg/dL",
+            "status": "Borderline",
+            "clinicalMeaning": "Borderline high total cholesterol indicates an increased risk of heart disease."
+          },
+          {
+            "name": "Triglycerides",
+            "value": "160",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 150 mg/dL",
+            "status": "Normal",
+            "clinicalMeaning": "Normal triglyceride levels are good for heart health."
+          },
+          {
+            "name": "HDL",
+            "value": "45",
+            "unit": "mg/dL",
+            "referenceRange": "60 mg/dL or higher is optimal, 40-59 mg/dL is adequate",
+            "status": "Low",
+            "clinicalMeaning": "Low HDL cholesterol can increase the risk of heart disease."
+          },
+          {
+            "name": "LDL",
+            "value": "138",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 100 mg/dL is optimal, 100-129 mg/dL is near optimal",
+            "status": "Borderline",
+            "clinicalMeaning": "Borderline high LDL cholesterol is a risk factor for heart disease."
+          }
+        ],
+        "abnormalFindings": [
+          "- Total Cholesterol: Borderline high (215 mg/dL)",
+          "- HDL: Low (45 mg/dL)",
+          "- LDL: Borderline high (138 mg/dL)"
+        ],
+        "potentialCauses": [
+          "Unhealthy diet high in saturated and trans fats",
+          "Lack of physical activity",
+          "Genetic predisposition"
+        ],
+        "questionsForDoctor": [
+          "What dietary changes can I make to improve my cholesterol levels?",
+          "Are there any medications that could help manage my cholesterol?",
+          "How often should I have my lipid profile rechecked?"
+        ],
+        "actionableRecommendations": [
+          "Increase physical activity to at least 150 minutes of moderate aerobic activity per week.",
+          "Adopt a heart-healthy diet rich in fruits, vegetables, whole grains, and lean proteins.",
+          "Consider reducing intake of saturated and trans fats, and limit alcohol consumption."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_ca2698d1",
+      "title": "Lipid Profile Panel",
+      "type": "Lab Report",
+      "provider": "Apollo Diagnostics",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:06 am",
+      "status": "Verified & Stored",
+      "category": "Lab Report",
+      "summary": "Clinical record stored and verified in patient vault.",
+      "isAbnormal": true,
+      "analysis": {
+        "overallImpression": "Your lipid profile shows mild hyperlipidemia, which means your cholesterol levels are slightly elevated. This is something to monitor but not yet a cause for major concern.",
+        "riskLevel": "LOW_RISK",
+        "biomarkers": [
+          {
+            "name": "Total Cholesterol",
+            "value": "215",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 200 mg/dL",
+            "status": "Borderline",
+            "clinicalMeaning": "Borderline high levels indicate a slightly elevated risk of cardiovascular disease."
+          },
+          {
+            "name": "Triglycerides",
+            "value": "160",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 150 mg/dL",
+            "status": "Normal",
+            "clinicalMeaning": "Within the normal range, which is good for heart health."
+          },
+          {
+            "name": "HDL",
+            "value": "45",
+            "unit": "mg/dL",
+            "referenceRange": "60 mg/dL and above is optimal, 40-59 mg/dL is adequate",
+            "status": "Low",
+            "clinicalMeaning": "Low HDL levels can increase the risk of heart disease. HDL is often referred to as 'good cholesterol'."
+          },
+          {
+            "name": "LDL",
+            "value": "138",
+            "unit": "mg/dL",
+            "referenceRange": "Less than 100 mg/dL is optimal, 100-129 mg/dL is near optimal",
+            "status": "Borderline",
+            "clinicalMeaning": "Borderline high LDL levels indicate a slightly elevated risk of cardiovascular disease."
+          }
+        ],
+        "abnormalFindings": [
+          "- Total Cholesterol: Borderline high (215 mg/dL)",
+          "- HDL: Low (45 mg/dL)",
+          "- LDL: Borderline high (138 mg/dL)"
+        ],
+        "potentialCauses": [
+          "Diet high in saturated fats and sugars",
+          "Lack of physical activity",
+          "Genetic predisposition"
+        ],
+        "questionsForDoctor": [
+          "What dietary changes can I make to improve my cholesterol levels?",
+          "Are there any specific exercises or activities that would be beneficial for me?",
+          "Should I consider taking any supplements or medications to help manage my cholesterol?"
+        ],
+        "actionableRecommendations": [
+          "Increase physical activity to at least 150 minutes of moderate aerobic activity per week.",
+          "Adopt a heart-healthy diet rich in fruits, vegetables, whole grains, and lean proteins.",
+          "Monitor your cholesterol levels every 5 years or more frequently if advised by your doctor."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_2a2b0779",
+      "title": "Liver Function Panel (LFT)",
+      "type": "Lab Report",
+      "provider": "Apollo Diagnostics",
+      "doctor": "Dr. Anil Mehta",
+      "date": "05 Sept 2026",
+      "time": "02:04 am",
+      "status": "Verified & Stored",
+      "category": "Lab Report",
+      "summary": "Clinical record stored and verified in patient vault.",
+      "isAbnormal": false,
+      "analysis": {
+        "overallImpression": "Your liver function test results are within normal range, indicating no immediate concerns.",
+        "riskLevel": "NORMAL",
+        "biomarkers": [
+          {
+            "name": "Total Bilirubin",
+            "value": "0.8",
+            "unit": "mg/dL",
+            "referenceRange": "0.3 - 1.2 mg/dL",
+            "status": "Normal",
+            "clinicalMeaning": "This measures the amount of bilirubin in your blood. Normal levels indicate your liver is functioning properly."
+          },
+          {
+            "name": "SGOT (AST)",
+            "value": "28",
+            "unit": "U/L",
+            "referenceRange": "10 - 40 U/L",
+            "status": "Normal",
+            "clinicalMeaning": "This enzyme is found in many tissues, but high levels can indicate liver or heart damage."
+          },
+          {
+            "name": "SGPT (ALT)",
+            "value": "34",
+            "unit": "U/L",
+            "referenceRange": "10 - 40 U/L",
+            "status": "Normal",
+            "clinicalMeaning": "This enzyme is primarily found in the liver. Elevated levels can indicate liver inflammation or damage."
+          },
+          {
+            "name": "Alkaline Phosphatase",
+            "value": "78",
+            "unit": "U/L",
+            "referenceRange": "40 - 150 U/L",
+            "status": "Normal",
+            "clinicalMeaning": "This enzyme is found in many tissues, but high levels can indicate liver or bone disease."
+          }
+        ],
+        "abnormalFindings": [],
+        "potentialCauses": [
+          "No significant abnormalities were found in your liver function tests."
+        ],
+        "questionsForDoctor": [
+          "Are there any lifestyle changes I should consider to maintain my liver health?",
+          "Is there anything in my diet that could be affecting my liver function?",
+          "Should I have any further tests or follow-ups based on these results?"
+        ],
+        "actionableRecommendations": [
+          "Continue a balanced diet rich in fruits, vegetables, and whole grains.",
+          "Maintain a healthy weight through regular exercise and a nutritious diet.",
+          "Limit alcohol consumption and avoid exposure to toxins that can harm the liver."
+        ]
+      },
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_4527f5de",
+      "title": "Complete_Blood_Count_May",
+      "type": "Lab Report",
+      "provider": "City Diagnostic Lab",
+      "doctor": "Dr. Anil Mehta",
+      "date": "May",
+      "time": "12:34 am",
+      "status": "Analyzed",
+      "category": "Lab Reports",
+      "fileUrl": "/sample-reports/auto_uploaded.pdf",
+      "summary": "Complete Blood Count results for patient Priya Sharma are within normal ranges.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_01",
+      "title": "Blood Test Report - Complete Blood Count",
+      "type": "Lab Report",
+      "provider": "City Diagnostic Lab",
+      "doctor": "Dr. Anil Mehta",
+      "date": "20 May 2025",
+      "time": "09:15 AM",
+      "status": "Analyzed",
+      "category": "Blood Tests",
+      "fileUrl": "/sample-reports/cbc_may2025.pdf",
+      "summary": "Hemoglobin, Vitamin D, Blood Sugar within targets. Eosinophils borderline (6%).",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_02",
+      "title": "Prescription - Dr. Anil Mehta",
+      "type": "Prescription",
+      "provider": "City Diagnostic Center",
+      "doctor": "Dr. Anil Mehta (General Physician)",
+      "date": "18 May 2025",
+      "time": "10:30 AM",
+      "status": "Active",
+      "category": "Prescriptions",
+      "fileUrl": "/sample-reports/rx_dr_mehta.pdf",
+      "summary": "2 Medicines prescribed for allergy and preventive care.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_03",
+      "title": "X-Ray Chest PA View",
+      "type": "Imaging",
+      "provider": "City Diagnostics",
+      "doctor": "Dr. Anil Mehta",
+      "date": "10 May 2025",
+      "time": "11:45 AM",
+      "status": "Normal",
+      "category": "Imaging",
+      "fileUrl": "/sample-reports/xray_chest.pdf",
+      "summary": "Clear lung fields, normal cardiothoracic ratio, no infiltrates.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_04",
+      "title": "Lipid Profile Panel",
+      "type": "Lab Report",
+      "provider": "City Diagnostic Lab",
+      "doctor": "Dr. Anil Mehta",
+      "date": "08 May 2025",
+      "time": "08:30 AM",
+      "status": "Abnormal",
+      "category": "Blood Tests",
+      "fileUrl": "/sample-reports/lipid_may2025.pdf",
+      "summary": "Total Cholesterol 210 mg/dL, LDL 135 mg/dL slightly high, HDL 42 mg/dL.",
+      "isAbnormal": true,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_05",
+      "title": "Hospital Bill & Consultation",
+      "type": "Bill",
+      "provider": "Life Care Hospitals",
+      "doctor": "Dr. Vikram Singh",
+      "date": "05 May 2025",
+      "time": "04:20 PM",
+      "status": "Paid",
+      "category": "Bills",
+      "fileUrl": "/sample-reports/bill_lifecare.pdf",
+      "summary": "Inpatient consultation and initial diagnostic panel invoice.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_06",
+      "title": "Discharge Summary",
+      "type": "Discharge Summary",
+      "provider": "Life Care Hospitals",
+      "doctor": "Dr. Neha Verma",
+      "date": "02 May 2025",
+      "time": "02:10 PM",
+      "status": "Archived",
+      "category": "Discharge Summaries",
+      "fileUrl": "/sample-reports/discharge_summary.pdf",
+      "summary": "Patient successfully discharged in stable condition. Continue oral medications.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_07",
+      "title": "Blood Pressure & Vitals Log",
+      "type": "Vitals",
+      "provider": "Home Telemetry",
+      "doctor": "Self",
+      "date": "28 Apr 2025",
+      "time": "07:30 AM",
+      "status": "Normal",
+      "category": "Vitals",
+      "fileUrl": "",
+      "summary": "120/80 mmHg, Pulse 72 bpm, SpO2 99%.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_08",
+      "title": "Vitamin D3 & B12 Assay",
+      "type": "Lab Report",
+      "provider": "City Diagnostics",
+      "doctor": "Dr. Priya Nair",
+      "date": "15 Apr 2025",
+      "time": "10:00 AM",
+      "status": "Normal",
+      "category": "Blood Tests",
+      "fileUrl": "/sample-reports/vit_d_b12.pdf",
+      "summary": "Vitamin D improved from 18 ng/mL to 28 ng/mL following weekly supplementation.",
+      "isAbnormal": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rec_rahul_01",
+      "title": "2D Echocardiography & Doppler Study",
+      "type": "Diagnostic Report",
+      "category": "Cardiology",
+      "doctor": "Dr. Anil Mehta (Cardiologist)",
+      "provider": "Manipal Hospital Bengaluru",
+      "date": "12 Feb 2026",
+      "time": "11:15 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Normal LV systolic function (LVEF 62%), grade 1 diastolic relaxation delay, no wall motion abnormalities.",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rec_rahul_02",
+      "title": "Ambulatory 24-Hour Blood Pressure Monitoring",
+      "type": "Monitoring Log",
+      "category": "Cardiology",
+      "doctor": "Dr. Anil Mehta",
+      "provider": "Manipal Hospital Bengaluru",
+      "date": "20 Jan 2026",
+      "time": "09:00 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": true,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Average daytime BP 138/88 mmHg. Average nighttime BP 124/78 mmHg. Dipper pattern preserved.",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rec_rahul_03",
+      "title": "Lipid Profile & Serum Electrolytes",
+      "type": "Lab Report",
+      "category": "Lab Reports",
+      "doctor": "Dr. Anita Joshi",
+      "provider": "Thyrocare Bengaluru",
+      "date": "10 Jan 2026",
+      "time": "08:30 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Total Cholesterol 182 mg/dL, LDL 102 mg/dL, HDL 48 mg/dL, Triglycerides 140 mg/dL, Potassium 4.2 mEq/L.",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rec_ananya_01",
+      "title": "Ultrasensitive TSH & Free Thyroid Panel",
+      "type": "Lab Report",
+      "category": "Lab Reports",
+      "doctor": "Dr. Meera Swaminathan (Endocrinologist)",
+      "provider": "Apollo Diagnostics Chennai",
+      "date": "18 Feb 2026",
+      "time": "08:15 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "TSH 2.45 µIU/mL (euthyroid target 0.5 - 4.5), Free T4 1.28 ng/dL, Free T3 3.1 pg/mL. Target dosing achieved.",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rec_ananya_02",
+      "title": "High-Resolution Neck & Thyroid Ultrasound",
+      "type": "Radiology Report",
+      "category": "Imaging",
+      "doctor": "Dr. K. Ramanathan",
+      "provider": "Aarthi Scans Chennai",
+      "date": "05 Dec 2025",
+      "time": "10:30 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Bilateral thyroid lobes show homogeneous echotexture. No suspicious microcalcifications or solid nodules. TI-RADS 1 (Benign).",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rec_ananya_03",
+      "title": "Serum Ferritin, Vitamin D3 & B12 Panel",
+      "type": "Lab Report",
+      "category": "Lab Reports",
+      "doctor": "Dr. Meera Swaminathan",
+      "provider": "Apollo Diagnostics Chennai",
+      "date": "15 Nov 2025",
+      "time": "09:00 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Vitamin D3 44 ng/mL (Sufficient), Vitamin B12 510 pg/mL (Optimal), Ferritin 58 ng/mL (Normal).",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rec_vikram_01",
+      "title": "Bilateral Knee Weight-Bearing X-Ray",
+      "type": "Radiology Report",
+      "category": "Imaging",
+      "doctor": "Dr. R. K. Singhania (Orthopedic Surgeon)",
+      "provider": "Hinduja Healthcare Mumbai",
+      "date": "28 Feb 2026",
+      "time": "03:15 pm",
+      "status": "Analyzed by AI",
+      "isAbnormal": true,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Mild medial joint space narrowing in both knees. Kellgren-Lawrence Grade II Osteoarthritis. No subchondral cysts or loose bodies.",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rec_vikram_02",
+      "title": "DEXA Bone Mineral Density (BMD) Scan",
+      "type": "Diagnostic Scan",
+      "category": "Diagnostic",
+      "doctor": "Dr. Sunita Deshmukh",
+      "provider": "Lilavati Hospital Mumbai",
+      "date": "15 Jan 2026",
+      "time": "11:00 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Lumbar Spine T-score -1.4, Femoral Neck T-score -1.6 (Osteopenia). Fracture risk is low-to-moderate. Calcitriol supplementation recommended.",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rec_vikram_03",
+      "title": "Serum Uric Acid & ESR / CRP Profile",
+      "type": "Lab Report",
+      "category": "Lab Reports",
+      "doctor": "Dr. R. K. Singhania",
+      "provider": "Metropolis Healthcare Mumbai",
+      "date": "10 Dec 2025",
+      "time": "08:45 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Serum Uric Acid 5.4 mg/dL (Normal). ESR 14 mm/hr (Normal). Gout and inflammatory arthritis excluded.",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rec_sneha_01",
+      "title": "Computerized Spirometry & Pulmonary Function Test",
+      "type": "Diagnostic Report",
+      "category": "Pulmonology",
+      "doctor": "Dr. Rajesh Shah (Pulmonologist)",
+      "provider": "Apollo Hospitals Ahmedabad",
+      "date": "01 Mar 2026",
+      "time": "10:00 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "FEV1/FVC ratio 86%, Peak Expiratory Flow 420 L/min (98% of predicted). Excellent bronchodilator response.",
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "rec_sneha_02",
+      "title": "Allergy Skin Prick & Total Serum IgE Panel",
+      "type": "Lab Report",
+      "category": "Lab Reports",
+      "doctor": "Dr. Rajesh Shah",
+      "provider": "Sterling Accuris Ahmedabad",
+      "date": "14 Jan 2026",
+      "time": "11:30 am",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "Total IgE 88 IU/mL (Normal). Mild sensitivity to Bermuda grass pollen; negative to dust mites.",
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "rec_sneha_03",
+      "title": "VO2 Max Fitness & Aerobic Capacity Assessment",
+      "type": "Fitness Report",
+      "category": "Cardiology",
+      "doctor": "Dr. Kavin Patel (Sports Medicine)",
+      "provider": "Cadila Sports Health Ahmedabad",
+      "date": "20 Nov 2025",
+      "time": "04:00 pm",
+      "status": "Analyzed by AI",
+      "isAbnormal": false,
+      "fileUrl": "/sample-reports/analyzed_report.pdf",
+      "summary": "VO2 Max 42.4 ml/kg/min (Superior aerobic fitness for 26/F). Lactate threshold at 162 bpm.",
+      "userId": "usr_sneha_05"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med_7b8d0240",
+      "name": "xsrdctvfbnm",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit and grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_f6ab2aac",
+      "name": "hrfrfyuik",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_43e430e6",
+      "name": "Atorvastatin 20mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_2e97e4ac",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "userId": "usr_priya_01",
+      "name": "CoQ10 100mg",
+      "dosage": "100mg",
+      "frequency": "Once Daily",
+      "schedule": "09:00 AM",
+      "purpose": "Cellular energy & antioxidant support"
+    },
+    {
+      "id": "med_8e692228",
+      "name": "Atorvastatin 20mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_778c57d7",
+      "name": "Vitamin D3 60K",
+      "form": "Tablet",
+      "indication": "Extracted from new prescription",
+      "schedule": "x 8 Weeks",
+      "timing": "Weekly with milk",
+      "frequency": "Weekly with milk",
+      "duration": "x 8 Weeks",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "x 8 Weeks",
+      "nextDose": "09:00 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_ef6d9620",
+      "name": "Paracetamol 650mg",
+      "form": "Tablet",
+      "indication": "Extracted from new prescription",
+      "schedule": "x 5 Days",
+      "timing": "SOS After Food",
+      "frequency": "SOS After Food",
+      "duration": "x 5 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "x 5 Days",
+      "nextDose": "09:00 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_1fe0b84b",
+      "name": "Levocetirizine 5mg",
+      "form": "Tablet",
+      "indication": "Extracted from new prescription",
+      "schedule": "x 10 Days",
+      "timing": "Morning Before Food",
+      "frequency": "Morning Before Food",
+      "duration": "x 10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "x 10 Days",
+      "nextDose": "09:00 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_7f7fc785",
+      "name": "helloatb57",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Avoid taking with dairy products or calcium supplements as it may reduce absorption.",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_cb936f16",
+      "name": "Amoxicillin 500mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Three times daily (TID)",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit. Calcium",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_83431f72",
+      "name": "Atorvastatin 20mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_c60d0ee2",
+      "name": "Ciprofloxacin 500mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Twice daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Milk. Curd. Calcium",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_74b592cf",
+      "name": "Atorvastatin 20mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "Before Food",
+      "timing": "20:00 PM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit and grapefruit juice",
+      "nextDose": "20:00 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_3f21e187",
+      "name": "Amoxicillin 500mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "08:30 AM",
+      "frequency": "Twice daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Avoid taking Amoxicillin with dairy products or antacids as they can bind to the antibiotic and reduce its effectiveness.",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_1967a8e3",
+      "name": "Pantoprazole 40mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "Before Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Take with plenty of water.",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_35291003",
+      "name": "Ciprofloxacin 500mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "Before Food",
+      "timing": "08:30 AM",
+      "frequency": "Twice daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Milk. Yogurt. Calcium Supplements",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_391a6313",
+      "name": "Pantoprazole 40mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "Before Food",
+      "timing": "08:30 AM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "08:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_9d6e814b",
+      "name": "Atorvastatin 20mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "Before Food",
+      "timing": "22:00 PM",
+      "frequency": "Daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "Grapefruit or grapefruit juice",
+      "nextDose": "22:00 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_2f6f8877",
+      "name": "Amoxicillin 500mg",
+      "form": "Tablet",
+      "indication": "Prescribed antibiotic / therapeutic therapy",
+      "schedule": "After Food",
+      "timing": "12:00 PM",
+      "frequency": "Twice daily",
+      "duration": "10 Days",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": false,
+      "instructions": "None",
+      "nextDose": "12:00 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_01",
+      "name": "Metformin 500mg",
+      "form": "Tablet",
+      "indication": "For Diabetes & Glucose Regulation",
+      "schedule": "After Food",
+      "timing": "08:30 AM & 08:30 PM",
+      "frequency": "Twice daily",
+      "duration": "1 Apr - 30 Jun 2025",
+      "status": "Active",
+      "adherence": 95,
+      "takenToday": true,
+      "instructions": "Take with meals to reduce gastrointestinal upset.",
+      "nextDose": "08:30 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_02",
+      "name": "Vitamin D3 60K IU",
+      "form": "Capsule",
+      "indication": "For Bone Health & Immunity",
+      "schedule": "After Food",
+      "timing": "10:30 AM - Weekly (Sun)",
+      "frequency": "Once a week",
+      "duration": "12 Apr - 12 Jul 2025",
+      "status": "Active",
+      "adherence": 90,
+      "takenToday": false,
+      "instructions": "Take with milk or fatty meal for optimal absorption.",
+      "nextDose": "10:30 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_03",
+      "name": "Calcium Tablet 500mg",
+      "form": "Tablet",
+      "indication": "For Bone Health",
+      "schedule": "After Food",
+      "timing": "07:00 PM - Daily",
+      "frequency": "Once daily",
+      "duration": "25 Apr - 25 Jun 2025",
+      "status": "Active",
+      "adherence": 85,
+      "takenToday": false,
+      "instructions": "Take at dinner time. Do not take at exact same time as iron.",
+      "nextDose": "07:00 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_04",
+      "name": "Atorvastatin 10mg",
+      "form": "Tablet",
+      "indication": "For Cholesterol Management",
+      "schedule": "Before Bed",
+      "timing": "09:00 PM - Daily",
+      "frequency": "Once daily at night",
+      "duration": "10 Mar - 10 Jun 2025",
+      "status": "Active",
+      "adherence": 92,
+      "takenToday": false,
+      "instructions": "Avoid grapefruit juice while taking this medication.",
+      "nextDose": "09:00 PM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_05",
+      "name": "Levocetirizine 5mg",
+      "form": "Tablet",
+      "indication": "For Allergy & Rhinitis",
+      "schedule": "Before Food",
+      "timing": "09:00 AM - Daily",
+      "frequency": "Once daily",
+      "duration": "15 May - 25 May 2025",
+      "status": "Active",
+      "adherence": 100,
+      "takenToday": true,
+      "instructions": "May cause mild drowsiness. Take with full glass of water.",
+      "nextDose": "Tomorrow 09:00 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "med_rahul_01",
+      "name": "Telmisartan",
+      "dosage": "40mg",
+      "frequency": "Once Daily (Morning)",
+      "schedule": "08:00 AM",
+      "purpose": "Hypertension Management",
+      "status": "Active",
+      "adherence": 96,
+      "takenToday": true,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "med_rahul_02",
+      "name": "Amlodipine",
+      "dosage": "5mg",
+      "frequency": "Once Daily (Night)",
+      "schedule": "08:00 PM",
+      "purpose": "Blood Pressure Control",
+      "status": "Active",
+      "adherence": 94,
+      "takenToday": false,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "med_rahul_03",
+      "name": "Rosuvastatin",
+      "dosage": "10mg",
+      "frequency": "Once Daily (Bedtime)",
+      "schedule": "10:00 PM",
+      "purpose": "Lipid Optimization & Vascular Health",
+      "status": "Active",
+      "adherence": 92,
+      "takenToday": false,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "med_ananya_01",
+      "name": "Levothyroxine Sodium",
+      "dosage": "50 mcg",
+      "frequency": "Once Daily (Fasting)",
+      "schedule": "06:30 AM",
+      "purpose": "Thyroid Hormone Replacement",
+      "status": "Active",
+      "adherence": 98,
+      "takenToday": true,
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "med_ananya_02",
+      "name": "Cholecalciferol (Vitamin D3)",
+      "dosage": "2000 IU",
+      "frequency": "Once Daily (Morning)",
+      "schedule": "09:00 AM",
+      "purpose": "Bone Health & Immune Support",
+      "status": "Active",
+      "adherence": 95,
+      "takenToday": true,
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "med_vikram_01",
+      "name": "Glucosamine Sulfate + Chondroitin",
+      "dosage": "1500mg / 1200mg",
+      "frequency": "Once Daily (Morning)",
+      "schedule": "08:30 AM",
+      "purpose": "Joint Cartilage Support & Flexibility",
+      "status": "Active",
+      "adherence": 94,
+      "takenToday": true,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "med_vikram_02",
+      "name": "Calcium Carbonate + Vitamin D3",
+      "dosage": "500mg / 400 IU",
+      "frequency": "Once Daily (After Lunch)",
+      "schedule": "02:00 PM",
+      "purpose": "Bone Mineral Density Support",
+      "status": "Active",
+      "adherence": 90,
+      "takenToday": false,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "med_vikram_03",
+      "name": "Diacerein",
+      "dosage": "50mg",
+      "frequency": "Once Daily (Dinner)",
+      "schedule": "08:30 PM",
+      "purpose": "Osteoarthritis Symptom Relief",
+      "status": "Active",
+      "adherence": 88,
+      "takenToday": false,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "med_sneha_01",
+      "name": "Budesonide + Formoterol Inhaler",
+      "dosage": "200 mcg / 6 mcg",
+      "frequency": "Twice Daily (Morning & Night)",
+      "schedule": "08:00 AM & 08:00 PM",
+      "purpose": "Pulmonary Maintenance & Bronchospasm Prevention",
+      "status": "Active",
+      "adherence": 98,
+      "takenToday": true,
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "med_sneha_02",
+      "name": "Montelukast Sodium",
+      "dosage": "10mg",
+      "frequency": "Once Daily (Bedtime)",
+      "schedule": "10:00 PM",
+      "purpose": "Leukotriene Receptor Antagonist",
+      "status": "Active",
+      "adherence": 95,
+      "takenToday": false,
+      "userId": "usr_sneha_05"
+    }
+  ],
+  "todayDoses": [
+    {
+      "id": "td_01",
+      "time": "08:30 AM",
+      "medicine": "Metformin 500mg",
+      "detail": "1 Tablet • After Food",
+      "status": "Taken",
+      "timeTaken": "08:28 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_02",
+      "time": "09:00 AM",
+      "medicine": "Levocetirizine 5mg",
+      "detail": "1 Tablet • Before Food",
+      "status": "Taken",
+      "timeTaken": "09:05 AM",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_03",
+      "time": "10:30 AM",
+      "medicine": "Vitamin D3 60K IU",
+      "detail": "1 Capsule • After Food",
+      "status": "Taken",
+      "timeTaken": "02:01 am",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_04",
+      "time": "07:00 PM",
+      "medicine": "Calcium Tablet 500mg",
+      "detail": "1 Tablet • After Food",
+      "status": "Taken",
+      "timeTaken": "02:00 am",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_05",
+      "time": "08:30 PM",
+      "medicine": "Metformin 500mg",
+      "detail": "1 Tablet • After Food",
+      "status": "Taken",
+      "timeTaken": "02:01 am",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_06",
+      "time": "09:00 PM",
+      "medicine": "Atorvastatin 10mg",
+      "detail": "1 Tablet • Before Bed",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_9a6c66",
+      "time": "08:30 AM",
+      "medicine": "Ciprofloxacin 500mg",
+      "detail": "1 Tablet (500mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_c1eb12",
+      "time": "08:30 AM",
+      "medicine": "Atorvastatin 20mg",
+      "detail": "1 Tablet (20mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_e55212",
+      "time": "08:30 AM",
+      "medicine": "Amoxicillin 500mg",
+      "detail": "1 Capsule (500mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_ee9e07",
+      "time": "08:30 AM",
+      "medicine": "helloatb57",
+      "detail": "1 Capsule (500mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_bbf703",
+      "time": "08:30 AM",
+      "medicine": "Atorvastatin 20mg",
+      "detail": "1 Tablet (20mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_rahul_01",
+      "time": "08:00 AM",
+      "medicine": "Telmisartan 40mg",
+      "detail": "1 Tablet • After Breakfast",
+      "status": "Taken",
+      "timeTaken": "08:12 AM",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "td_rahul_02",
+      "time": "08:00 PM",
+      "medicine": "Amlodipine 5mg",
+      "detail": "1 Tablet • After Dinner",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "td_rahul_03",
+      "time": "10:00 PM",
+      "medicine": "Rosuvastatin 10mg",
+      "detail": "1 Tablet • Before Bed",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "td_ananya_01",
+      "time": "06:30 AM",
+      "medicine": "Levothyroxine 50 mcg",
+      "detail": "1 Tablet • Fasting with plain water",
+      "status": "Taken",
+      "timeTaken": "06:32 AM",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "td_ananya_02",
+      "time": "09:00 AM",
+      "medicine": "Vitamin D3 2000 IU",
+      "detail": "1 Capsule • Post Breakfast",
+      "status": "Taken",
+      "timeTaken": "09:15 AM",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "td_vikram_01",
+      "time": "08:30 AM",
+      "medicine": "Glucosamine + Chondroitin",
+      "detail": "1 Sachet in water • Post Breakfast",
+      "status": "Taken",
+      "timeTaken": "08:40 AM",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "td_vikram_02",
+      "time": "02:00 PM",
+      "medicine": "Calcium 500mg + D3",
+      "detail": "1 Tablet • Post Lunch",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "td_vikram_03",
+      "time": "08:30 PM",
+      "medicine": "Diacerein 50mg",
+      "detail": "1 Capsule • Post Dinner",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "td_sneha_01",
+      "time": "08:00 AM",
+      "medicine": "Budesonide/Formoterol Inhaler",
+      "detail": "1 Inhalation • Rinse mouth after use",
+      "status": "Taken",
+      "timeTaken": "07:55 AM",
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "td_sneha_02",
+      "time": "08:00 PM",
+      "medicine": "Budesonide/Formoterol Inhaler",
+      "detail": "1 Inhalation • Rinse mouth after use",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "td_sneha_03",
+      "time": "10:00 PM",
+      "medicine": "Montelukast 10mg",
+      "detail": "1 Tablet • Nightly",
+      "status": "Pending",
+      "timeTaken": null,
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "td_728721",
+      "time": "08:30 AM",
+      "medicine": "Atorvastatin 20mg",
+      "detail": "1 Tablet (20mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_bcb0de",
+      "time": "08:30 AM",
+      "medicine": "hrfrfyuik",
+      "detail": "1 Tablet (20mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "td_c4e0d8",
+      "time": "08:30 AM",
+      "medicine": "xsrdctvfbnm",
+      "detail": "1 Tablet (20mg) • After Food",
+      "status": "Due",
+      "timeTaken": null,
+      "userId": "usr_priya_01"
+    }
+  ],
+  "labResults": {
+    "reportCards": [
+      {
+        "id": "cbc",
+        "name": "Complete Blood Count",
+        "type": "Blood Test",
+        "date": "20 May 2025",
+        "lab": "City Diagnostic Laboratory",
+        "status": "Normal"
+      },
+      {
+        "id": "lipid",
+        "name": "Lipid Profile",
+        "type": "Blood Test",
+        "date": "08 May 2025",
+        "lab": "City Diagnostic Laboratory",
+        "status": "Abnormal"
+      },
+      {
+        "id": "vitd",
+        "name": "Vitamin D, B12",
+        "type": "Blood Test",
+        "date": "15 Apr 2025",
+        "lab": "City Diagnostic Laboratory",
+        "status": "Normal"
+      },
+      {
+        "id": "urine",
+        "name": "Urine Routine",
+        "type": "Urine Test",
+        "date": "28 Mar 2025",
+        "lab": "City Diagnostic Laboratory",
+        "status": "Normal"
+      }
+    ],
+    "cbc": {
+      "name": "Complete Blood Count",
+      "type": "Blood Test",
+      "date": "20 May 2025 • 10:15 AM",
+      "lab": "City Diagnostic Laboratory",
+      "doctor": "Dr. Anil Mehta",
+      "parameters": [
+        {
+          "name": "Hemoglobin (Hb)",
+          "result": "13.2",
+          "unit": "g/dL",
+          "reference": "12.0 - 15.0",
+          "status": "Normal",
+          "trend": [
+            11.5,
+            12,
+            12.6,
+            13.2
+          ]
+        },
+        {
+          "name": "Total RBC Count",
+          "result": "4.45",
+          "unit": "million/µL",
+          "reference": "3.80 - 5.20",
+          "status": "Normal",
+          "trend": [
+            4.2,
+            4.3,
+            4.4,
+            4.45
+          ]
+        },
+        {
+          "name": "WBC Count",
+          "result": "6,800",
+          "unit": "cells/µL",
+          "reference": "4,000 - 11,000",
+          "status": "Normal",
+          "trend": [
+            7100,
+            6900,
+            6850,
+            6800
+          ]
+        },
+        {
+          "name": "Platelet Count",
+          "result": "1.85",
+          "unit": "lakh/µL",
+          "reference": "1.50 - 4.50",
+          "status": "Normal",
+          "trend": [
+            1.7,
+            1.75,
+            1.8,
+            1.85
+          ]
+        },
+        {
+          "name": "Neutrophils",
+          "result": "65",
+          "unit": "%",
+          "reference": "40 - 75",
+          "status": "Normal",
+          "trend": [
+            68,
+            66,
+            65,
+            65
+          ]
+        },
+        {
+          "name": "Lymphocytes",
+          "result": "28",
+          "unit": "%",
+          "reference": "20 - 45",
+          "status": "Normal",
+          "trend": [
+            24,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "name": "Eosinophils",
+          "result": "6",
+          "unit": "%",
+          "reference": "1 - 6",
+          "status": "Borderline",
+          "trend": [
+            4,
+            5,
+            5.5,
+            6
+          ]
+        },
+        {
+          "name": "Monocytes",
+          "result": "7",
+          "unit": "%",
+          "reference": "2 - 10",
+          "status": "Normal",
+          "trend": [
+            6,
+            7,
+            7,
+            7
+          ]
+        }
+      ],
+      "impression": "Your complete blood count is within normal physiological limits. Oxygen-carrying and immune markers are healthy.",
+      "observations": [
+        {
+          "label": "Hemoglobin levels are good (13.2 g/dL). No signs of anemia.",
+          "type": "good"
+        },
+        {
+          "label": "WBC count is normal (6,800 cells/µL). No acute infection detected.",
+          "type": "good"
+        },
+        {
+          "label": "Eosinophils (6%) are at upper threshold. Correlates with seasonal rhinitis.",
+          "type": "warning"
+        }
+      ],
+      "trendLabel": "Hemoglobin (Hb)",
+      "trendValue": "13.2",
+      "trendData": [
+        60,
+        65,
+        75,
+        80,
+        88,
+        95
+      ]
+    },
+    "lipid": {
+      "name": "Lipid Profile Panel",
+      "type": "Blood Test",
+      "date": "08 May 2025 • 08:30 AM",
+      "lab": "City Diagnostic Laboratory",
+      "doctor": "Dr. Anil Mehta",
+      "parameters": [
+        {
+          "name": "Total Cholesterol",
+          "result": "210",
+          "unit": "mg/dL",
+          "reference": "< 200",
+          "status": "High"
+        },
+        {
+          "name": "LDL Cholesterol",
+          "result": "135",
+          "unit": "mg/dL",
+          "reference": "< 100",
+          "status": "High"
+        },
+        {
+          "name": "HDL Cholesterol",
+          "result": "42",
+          "unit": "mg/dL",
+          "reference": "> 40",
+          "status": "Normal"
+        },
+        {
+          "name": "Triglycerides",
+          "result": "165",
+          "unit": "mg/dL",
+          "reference": "< 150",
+          "status": "Borderline"
+        }
+      ],
+      "impression": "Mild dyslipidemia detected. Elevated LDL and borderline triglycerides suggest continuing dietary changes and evening Atorvastatin.",
+      "observations": [
+        {
+          "label": "Total Cholesterol (210 mg/dL) is slightly above the 200 threshold.",
+          "type": "warning"
+        },
+        {
+          "label": "LDL (135 mg/dL) is elevated. Continue low-fat diet and prescribed statin.",
+          "type": "warning"
+        },
+        {
+          "label": "HDL (42 mg/dL) is protective against cardiovascular risks.",
+          "type": "good"
+        }
+      ],
+      "trendLabel": "Total Cholesterol",
+      "trendValue": "210",
+      "trendData": [
+        92,
+        90,
+        88,
+        85,
+        84,
+        82
+      ]
+    },
+    "vitd": {
+      "name": "Vitamin D & B12 Panel",
+      "type": "Blood Test",
+      "date": "15 Apr 2025 • 09:00 AM",
+      "lab": "City Diagnostic Laboratory",
+      "doctor": "Dr. Anil Mehta",
+      "parameters": [
+        {
+          "name": "Vitamin D (25-OH)",
+          "result": "28",
+          "unit": "ng/mL",
+          "reference": "30 - 100",
+          "status": "Borderline"
+        },
+        {
+          "name": "Vitamin B12",
+          "result": "450",
+          "unit": "pg/mL",
+          "reference": "200 - 900",
+          "status": "Normal"
+        },
+        {
+          "name": "Serum Calcium",
+          "result": "9.4",
+          "unit": "mg/dL",
+          "reference": "8.5 - 10.2",
+          "status": "Normal"
+        },
+        {
+          "name": "Serum Ferritin",
+          "result": "58",
+          "unit": "ng/mL",
+          "reference": "15 - 150",
+          "status": "Normal"
+        }
+      ],
+      "impression": "Sub-optimal Vitamin D level. Weekly Vitamin D3 60K supplementation is actively addressing this baseline.",
+      "observations": [
+        {
+          "label": "Vitamin D (28 ng/mL) is slightly below standard (30-100 ng/mL).",
+          "type": "warning"
+        },
+        {
+          "label": "Vitamin B12 is robust at 450 pg/mL with optimal neurological support.",
+          "type": "good"
+        },
+        {
+          "label": "Serum Calcium is normal at 9.4 mg/dL.",
+          "type": "good"
+        }
+      ],
+      "trendLabel": "Vitamin D (25-OH)",
+      "trendValue": "28",
+      "trendData": [
+        40,
+        48,
+        55,
+        65,
+        72,
+        80
+      ]
+    },
+    "urine": {
+      "name": "Urine Routine & Microscopy",
+      "type": "Urine Test",
+      "date": "28 Mar 2025 • 11:30 AM",
+      "lab": "City Diagnostic Laboratory",
+      "doctor": "Dr. Anil Mehta",
+      "parameters": [
+        {
+          "name": "Specific Gravity",
+          "result": "1.018",
+          "unit": "ratio",
+          "reference": "1.005 - 1.030",
+          "status": "Normal"
+        },
+        {
+          "name": "pH",
+          "result": "6.2",
+          "unit": "pH",
+          "reference": "4.5 - 8.0",
+          "status": "Normal"
+        },
+        {
+          "name": "Protein / Albumin",
+          "result": "Nil",
+          "unit": "",
+          "reference": "Negative",
+          "status": "Normal"
+        },
+        {
+          "name": "Pus Cells",
+          "result": "1 - 2",
+          "unit": "/HPF",
+          "reference": "0 - 5",
+          "status": "Normal"
+        },
+        {
+          "name": "Glucose",
+          "result": "Nil",
+          "unit": "",
+          "reference": "Negative",
+          "status": "Normal"
+        }
+      ],
+      "impression": "Routine urinalysis is completely normal. Kidney filtration, urinary tract integrity, and hydration status are excellent.",
+      "observations": [
+        {
+          "label": "No traces of proteinuria or glycosuria detected.",
+          "type": "good"
+        },
+        {
+          "label": "Microscopic examination shows clear field with 1-2 pus cells (within normal <5).",
+          "type": "good"
+        },
+        {
+          "label": "Urine specific gravity indicates healthy hydration balance.",
+          "type": "good"
+        }
+      ],
+      "trendLabel": "Specific Gravity",
+      "trendValue": "1.018",
+      "trendData": [
+        70,
+        72,
+        70,
+        71,
+        72,
+        72
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "id": "tl_1",
+      "date": "20 May 2025",
+      "type": "Lab Report",
+      "title": "Blood Test Report",
+      "subtitle": "Hemoglobin, Vitamin D, Blood Sugar",
+      "status": "Analyzed",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "tl_2",
+      "date": "18 May 2025",
+      "type": "Prescription",
+      "title": "Prescription",
+      "subtitle": "Dr. Anil Mehta - General Physician",
+      "status": "2 Medicines",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "tl_3",
+      "date": "10 May 2025",
+      "type": "X-Ray",
+      "title": "X-Ray Chest",
+      "subtitle": "Chest X-Ray PA View",
+      "status": "Normal",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "tl_4",
+      "date": "05 May 2025",
+      "type": "Consultation",
+      "title": "Cardiology Follow-up",
+      "subtitle": "Dr. Vikram Singh - Routine Check",
+      "status": "Completed",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "tl_5",
+      "date": "28 Apr 2025",
+      "type": "Vitals",
+      "title": "Blood Pressure Reading",
+      "subtitle": "120/80 mmHg - Sitting",
+      "status": "Normal",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "tl_rahul_01",
+      "title": "Cardiology Review & 2D Echo",
+      "type": "Clinical Visit",
+      "doctor": "Dr. Anil Mehta",
+      "date": "12 Feb 2026",
+      "summary": "BP 128/82 mmHg. LVEF 62%. Continued Telmisartan 40mg and Amlodipine 5mg.",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "tl_rahul_02",
+      "title": "24-hr Holter BP Monitoring",
+      "type": "Diagnostic",
+      "doctor": "Dr. Anil Mehta",
+      "date": "20 Jan 2026",
+      "summary": "Dipper pattern observed, nocturnal dipping intact.",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "tl_ananya_01",
+      "title": "Endocrinology Thyroid Follow-up",
+      "type": "Clinical Visit",
+      "doctor": "Dr. Meera Swaminathan",
+      "date": "18 Feb 2026",
+      "summary": "TSH in optimal range at 2.45. Maintain 50 mcg dose.",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "tl_ananya_02",
+      "title": "Thyroid Ultrasound Review",
+      "type": "Diagnostic",
+      "doctor": "Dr. K. Ramanathan",
+      "date": "05 Dec 2025",
+      "summary": "Normal bilateral parenchymal volume without focal lesions.",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "tl_vikram_01",
+      "title": "Orthopedic Consultation & Knee X-Ray",
+      "type": "Clinical Visit",
+      "doctor": "Dr. R. K. Singhania",
+      "date": "28 Feb 2026",
+      "summary": "Grade II OA confirmed. Physical therapy exercises prescribed. Pain scale 2/10.",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "tl_vikram_02",
+      "title": "Bone Mineral Density Evaluation",
+      "type": "Diagnostic",
+      "doctor": "Dr. Sunita Deshmukh",
+      "date": "15 Jan 2026",
+      "summary": "Mild osteopenia. Advised weight-bearing walks and calcium supplement.",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "tl_sneha_01",
+      "title": "Spirometry Lung Capacity Testing",
+      "type": "Diagnostic",
+      "doctor": "Dr. Rajesh Shah",
+      "date": "01 Mar 2026",
+      "summary": "Peak flow 420 L/min. Asthma control test score 25/25 (Complete control).",
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "tl_sneha_02",
+      "title": "Allergy Evaluation & Peak Flow Review",
+      "type": "Clinical Visit",
+      "doctor": "Dr. Rajesh Shah",
+      "date": "14 Jan 2026",
+      "summary": "Inhaler technique verified. Green zone peak flow maintained.",
+      "userId": "usr_sneha_05"
+    }
+  ],
+  "followUps": [
+    {
+      "id": "fu_84c42531",
+      "title": "General Follow-up Consultation",
+      "doctor": "Dr. Anil Mehta",
+      "department": "General Medicine",
+      "date": "25 May 2025",
+      "dayTime": "Sunday, 10:00 AM",
+      "status": "Due Soon",
+      "daysLeft": 5,
+      "purpose": "Routine clinical assessment and medication progress review"
+    },
+    {
+      "id": "fu_8b6010f9",
+      "title": "Cardiology Follow-up",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Internal Medicine / Cardiology",
+      "date": "23 May 2025",
+      "dayTime": "Friday, 10:30 AM",
+      "status": "Due Soon",
+      "daysLeft": 3,
+      "purpose": "Review blood pressure stability and lab progress"
+    },
+    {
+      "id": "fu_b454d42a",
+      "title": "Cardiology Follow-up",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Internal Medicine / Cardiology",
+      "date": "23 May 2025",
+      "dayTime": "Friday, 10:30 AM",
+      "status": "Due Soon",
+      "daysLeft": 3,
+      "purpose": "Review blood pressure stability and lab progress"
+    },
+    {
+      "id": "fu_1bd54446",
+      "title": "General Follow-up Consultation",
+      "doctor": "Dr. Anil Mehta",
+      "department": "General Medicine",
+      "date": "25 May 2025",
+      "dayTime": "Sunday, 10:00 AM",
+      "status": "Due Soon",
+      "daysLeft": 5,
+      "purpose": "Routine clinical assessment and medication progress review"
+    },
+    {
+      "id": "fu_5a3b25b8",
+      "title": "Cardiology Follow-up",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Internal Medicine / Cardiology",
+      "date": "23 May 2025",
+      "dayTime": "Friday, 10:30 AM",
+      "status": "Due Soon",
+      "daysLeft": 3,
+      "purpose": "Review blood pressure stability and lab progress"
+    },
+    {
+      "id": "fu_f11c2db9",
+      "title": "Cardiology Follow-up",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Internal Medicine / Cardiology",
+      "date": "23 May 2025",
+      "dayTime": "Friday, 10:30 AM",
+      "status": "Due Soon",
+      "daysLeft": 3,
+      "purpose": "Review blood pressure stability and lab progress"
+    },
+    {
+      "id": "fu_01",
+      "title": "Cardiology Follow-up",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Internal Medicine / Cardiology",
+      "date": "23 May 2025",
+      "dayTime": "Friday, 10:30 AM",
+      "status": "Due Soon",
+      "daysLeft": 3,
+      "purpose": "Review treatment and blood pressure stability"
+    },
+    {
+      "id": "fu_02",
+      "title": "Complete Blood Count (CBC)",
+      "doctor": "City Diagnostic Lab",
+      "department": "Routine Laboratory",
+      "date": "25 May 2025",
+      "dayTime": "Sunday, 08:00 AM",
+      "status": "Due Soon",
+      "daysLeft": 5,
+      "purpose": "Monitor eosinophil levels and red blood cell count"
+    },
+    {
+      "id": "fu_03",
+      "title": "Medication Review",
+      "doctor": "Dr. Anil Mehta",
+      "department": "Preventive Care",
+      "date": "30 May 2025",
+      "dayTime": "Friday, 11:00 AM",
+      "status": "Upcoming",
+      "daysLeft": 10,
+      "purpose": "Assess Atorvastatin tolerance and lipid progress"
+    },
+    {
+      "id": "fu_04",
+      "title": "Vitamin D Re-test",
+      "doctor": "City Diagnostics Lab",
+      "department": "Endocrine & Metabolic",
+      "date": "05 Jun 2025",
+      "dayTime": "Thursday, 09:00 AM",
+      "status": "Upcoming",
+      "daysLeft": 16,
+      "purpose": "Vitamin D level check after 8 weeks of supplementation"
+    }
+  ],
+  "riskSignals": [
+    {
+      "id": "rs_01",
+      "severity": "High",
+      "title": "High Blood Pressure Risk",
+      "description": "Systolic readings peaked at 136 mmHg during evening checks.",
+      "recommendation": "Continue low sodium diet, avoid evening caffeine, log daily."
+    },
+    {
+      "id": "rs_02",
+      "severity": "Moderate",
+      "title": "Blood Sugar Monitoring",
+      "description": "Fasting blood glucose averaging 98-104 mg/dL over the past 14 days.",
+      "recommendation": "Maintain regular Metformin schedule and 30-min walking routine."
+    },
+    {
+      "id": "rs_03",
+      "severity": "Moderate",
+      "title": "Medication Adherence",
+      "description": "2 medications taken off-schedule this week.",
+      "recommendation": "Set automated audio notifications at 08:30 AM and 07:00 PM."
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins_01",
+      "title": "Vitamin D Improvement",
+      "category": "Biomarker",
+      "date": "20 May 2025",
+      "content": "Your Vitamin D has improved significantly from 18 ng/mL to 28 ng/mL over the past 6 weeks. Continue weekly 60K IU doses."
+    },
+    {
+      "id": "ins_02",
+      "title": "Hydration & Energy Connection",
+      "category": "Lifestyle",
+      "date": "19 May 2025",
+      "content": "Daily water intake averaged 2.4L this week, correlating with a 15% decrease in reported afternoon fatigue."
+    },
+    {
+      "id": "ins_03",
+      "title": "Lipid Control Advisory",
+      "category": "Cardiovascular",
+      "date": "18 May 2025",
+      "content": "LDL remains mildly elevated. Incorporate soluble fiber (oats, flaxseeds) and avoid saturated trans-fats."
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "hosp_01",
+      "name": "Greenview Hospital",
+      "distance": "1.7 km",
+      "distanceValue": 1.7,
+      "type": "Multi Speciality Hospital",
+      "address": "Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+      "rating": 4.6,
+      "reviewsCount": 512,
+      "emergencyAvailable": true,
+      "icuAvailable": true,
+      "icuBedsFree": 0,
+      "totalBedsFree": 34,
+      "totalCapacity": 150,
+      "pharmacy247": true,
+      "ambulanceAvailable": true,
+      "ambulanceEtaMinutes": 6,
+      "phone": "+91 40 1234 5678",
+      "emergencyPhone": "+91 40 9876 5433",
+      "lat": 17.4156,
+      "lng": 78.435,
+      "facilities": [
+        "24/7 Emergency",
+        "ICU Available",
+        "Pharmacy",
+        "Lab Services",
+        "Ambulance",
+        "Blood Bank"
+      ],
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "hosp_02",
+      "name": "City Care Hospital",
+      "distance": "2.1 km",
+      "distanceValue": 2.1,
+      "type": "Multi Speciality Hospital",
+      "address": "Ameerpet Main Road, Hyderabad, Telangana 500016",
+      "rating": 4.3,
+      "reviewsCount": 398,
+      "emergencyAvailable": true,
+      "icuAvailable": true,
+      "icuBedsFree": 3,
+      "totalBedsFree": 19,
+      "totalCapacity": 100,
+      "pharmacy247": true,
+      "ambulanceAvailable": true,
+      "ambulanceEtaMinutes": 8,
+      "phone": "+91 40 2345 6789",
+      "emergencyPhone": "+91 40 8765 4321",
+      "lat": 17.4375,
+      "lng": 78.4482,
+      "facilities": [
+        "24/7 Emergency",
+        "ICU Available",
+        "Pharmacy",
+        "Diagnostics"
+      ],
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "hosp_03",
+      "name": "Sunrise Hospitals",
+      "distance": "3.4 km",
+      "distanceValue": 3.4,
+      "type": "Super Speciality Hospital",
+      "address": "Begumpet Flyover Road, Hyderabad, Telangana 500016",
+      "rating": 4.5,
+      "reviewsCount": 631,
+      "emergencyAvailable": true,
+      "icuAvailable": true,
+      "icuBedsFree": 12,
+      "totalBedsFree": 52,
+      "totalCapacity": 220,
+      "pharmacy247": true,
+      "ambulanceAvailable": true,
+      "ambulanceEtaMinutes": 11,
+      "phone": "+91 40 3456 7890",
+      "emergencyPhone": "+91 40 7654 3210",
+      "lat": 17.444,
+      "lng": 78.468,
+      "facilities": [
+        "24/7 Emergency",
+        "ICU Available",
+        "Pharmacy",
+        "Cardiac Center",
+        "Ambulance"
+      ],
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "hosp_04",
+      "name": "Metro Multi Speciality",
+      "distance": "4.2 km",
+      "distanceValue": 4.2,
+      "type": "Multi Speciality Hospital",
+      "address": "Kondapur Botanical Garden Road, Hyderabad, Telangana 500084",
+      "rating": 4.2,
+      "reviewsCount": 287,
+      "emergencyAvailable": true,
+      "icuAvailable": true,
+      "icuBedsFree": 5,
+      "totalBedsFree": 22,
+      "totalCapacity": 110,
+      "pharmacy247": true,
+      "ambulanceAvailable": true,
+      "ambulanceEtaMinutes": 14,
+      "phone": "+91 40 4567 8901",
+      "emergencyPhone": "+91 40 6543 2109",
+      "lat": 17.4699,
+      "lng": 78.3578,
+      "facilities": [
+        "24/7 Emergency",
+        "ICU Available",
+        "Pharmacy",
+        "Trauma Center"
+      ],
+      "image": "https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "hosp_05",
+      "name": "Apollo Hospitals",
+      "distance": "5.6 km",
+      "distanceValue": 5.6,
+      "type": "Super Speciality Hospital",
+      "address": "Road No. 72, Film Nagar, Jubilee Hills, Hyderabad 500033",
+      "rating": 4.7,
+      "reviewsCount": 1290,
+      "emergencyAvailable": true,
+      "icuAvailable": true,
+      "icuBedsFree": 18,
+      "totalBedsFree": 86,
+      "totalCapacity": 450,
+      "pharmacy247": true,
+      "ambulanceAvailable": true,
+      "ambulanceEtaMinutes": 16,
+      "phone": "+91 40 2360 7777",
+      "emergencyPhone": "+91 40 1066",
+      "lat": 17.4265,
+      "lng": 78.4132,
+      "facilities": [
+        "24/7 Emergency",
+        "ICU Available",
+        "Pharmacy",
+        "Trauma 1 Center",
+        "Air Ambulance",
+        "Organ Transplant"
+      ],
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "ch_01",
+      "sender": "user",
+      "text": "What does my latest blood test say about my health?",
+      "timestamp": "10:30 AM"
+    },
+    {
+      "id": "ch_02",
+      "sender": "assistant",
+      "text": "I've analyzed your latest blood test from 20 May 2025. Here's what I found:\n\n• **Hemoglobin (13.2 g/dL)** — Normal. Good oxygen-carrying capacity.\n• **WBC Count (6,800 cells/µL)** — Normal. No signs of infection.\n• **Platelet Count (1.85 lakh/µL)** — Normal. Good clotting function.\n• **Eosinophils (6%)** — Borderline high. This may indicate allergies.\n\nOverall, your blood test looks good. Consider discussing the eosinophils level with your doctor if you have allergy symptoms.",
+      "timestamp": "10:31 AM",
+      "metadata": {
+        "type": "lab_breakdown",
+        "highlight": "Eosinophils borderline"
+      }
+    },
+    {
+      "id": "ch_03",
+      "sender": "user",
+      "text": "Show me the trend of my Vitamin D levels over the last 6 months",
+      "timestamp": "10:32 AM"
+    },
+    {
+      "id": "ch_04",
+      "sender": "assistant",
+      "text": "Here is the trend of your Vitamin D levels over the last 6 months. Your level has risen steadily from 18 ng/mL to 28 ng/mL following your weekly 60K IU supplementation.",
+      "timestamp": "10:33 AM",
+      "metadata": {
+        "type": "chart_widget",
+        "chartType": "vitamin_d_trend",
+        "data": [
+          {
+            "month": "Dec 2024",
+            "value": 16
+          },
+          {
+            "month": "Jan 2025",
+            "value": 18
+          },
+          {
+            "month": "Feb 2025",
+            "value": 20
+          },
+          {
+            "month": "Mar 2025",
+            "value": 22
+          },
+          {
+            "month": "Apr 2025",
+            "value": 25
+          },
+          {
+            "month": "May 2025",
+            "value": 28
+          }
+        ],
+        "currentValue": "28 ng/mL",
+        "status": "Normal",
+        "change": "+8 ng/mL"
+      }
+    },
+    {
+      "id": "ch_1788552232827",
+      "sender": "user",
+      "text": "hello",
+      "timestamp": "01:33 am"
+    },
+    {
+      "id": "ch_1788552234617",
+      "sender": "assistant",
+      "text": "I've analyzed your health records for **Priya Sharma**:\n\n• **Complete Blood Count**: Hemoglobin is healthy at **13.2 g/dL** and WBC count is normal (**6,800 /µL**).\n• **Eosinophils**: Borderline high at **6%**, which matches your seasonal allergy history.\n• **Medications**: You have 5 active medications on schedule.\n\nPlease let me know if you would like me to review specific lab parameters, medications, or symptom trends.",
+      "timestamp": "01:33 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788552245532",
+      "sender": "user",
+      "text": "say my name",
+      "timestamp": "01:34 am"
+    },
+    {
+      "id": "ch_1788552247316",
+      "sender": "assistant",
+      "text": "I've analyzed your health records for **Priya Sharma**:\n\n• **Complete Blood Count**: Hemoglobin is healthy at **13.2 g/dL** and WBC count is normal (**6,800 /µL**).\n• **Eosinophils**: Borderline high at **6%**, which matches your seasonal allergy history.\n• **Medications**: You have 5 active medications on schedule.\n\nPlease let me know if you would like me to review specific lab parameters, medications, or symptom trends.",
+      "timestamp": "01:34 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557428923",
+      "sender": "user",
+      "text": "What does my latest blood test say about my health?",
+      "timestamp": "03:00 am"
+    },
+    {
+      "id": "ch_1788557435946",
+      "sender": "assistant",
+      "text": "I've analyzed your health records for **Priya Sharma**:\n\n• **Complete Blood Count**: Hemoglobin is healthy at **13.2 g/dL** and WBC count is normal (**6,800 /µL**).\n• **Eosinophils**: Borderline high at **6%**, which matches your seasonal allergy history.\n• **Medications**: You have 5 active medications on schedule.\n\nPlease let me know if you would like me to review specific lab parameters, medications, or symptom trends.",
+      "timestamp": "03:00 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557453155",
+      "sender": "user",
+      "text": "Show me the trend of my Vitamin D levels",
+      "timestamp": "03:00 am"
+    },
+    {
+      "id": "ch_1788557460170",
+      "sender": "assistant",
+      "text": "Here is the trend of your **Vitamin D** levels over the last 6 months:\n\n• **December 2024**: 16 ng/mL (Deficient)\n• **February 2025**: 20 ng/mL\n• **May 2025**: **28 ng/mL (Normal)**\n\nYour weekly Vitamin D3 60K IU supplementation has successfully raised your serum level into the target range. Continue taking your weekly dose with a meal containing healthy fats.",
+      "timestamp": "03:01 am",
+      "metadata": {
+        "type": "chart_widget",
+        "chartType": "vitamin_d_trend",
+        "title": "Vitamin D Levels (Last 6 Months)",
+        "data": [
+          {
+            "month": "Dec",
+            "value": 16
+          },
+          {
+            "month": "Jan",
+            "value": 18
+          },
+          {
+            "month": "Feb",
+            "value": 20
+          },
+          {
+            "month": "Mar",
+            "value": 22
+          },
+          {
+            "month": "Apr",
+            "value": 25
+          },
+          {
+            "month": "May",
+            "value": 28
+          }
+        ],
+        "currentValue": "28 ng/mL",
+        "status": "Normal",
+        "change": "+12 ng/mL overall"
+      }
+    },
+    {
+      "id": "ch_1788557537444",
+      "sender": "user",
+      "text": "hello",
+      "timestamp": "03:02 am"
+    },
+    {
+      "id": "ch_1788557539116",
+      "sender": "assistant",
+      "text": "I've analyzed your health records for **Priya Sharma**:\n\n• **Complete Blood Count**: Hemoglobin is healthy at **13.2 g/dL** and WBC count is normal (**6,800 /µL**).\n• **Eosinophils**: Borderline high at **6%**, which matches your seasonal allergy history.\n• **Medications**: You have 5 active medications on schedule.\n\nPlease let me know if you would like me to review specific lab parameters, medications, or symptom trends.",
+      "timestamp": "03:02 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557553639",
+      "sender": "user",
+      "text": "tell me my name",
+      "timestamp": "03:02 am"
+    },
+    {
+      "id": "ch_1788557555295",
+      "sender": "assistant",
+      "text": "I've analyzed your health records for **Priya Sharma**:\n\n• **Complete Blood Count**: Hemoglobin is healthy at **13.2 g/dL** and WBC count is normal (**6,800 /µL**).\n• **Eosinophils**: Borderline high at **6%**, which matches your seasonal allergy history.\n• **Medications**: You have 5 active medications on schedule.\n\nPlease let me know if you would like me to review specific lab parameters, medications, or symptom trends.",
+      "timestamp": "03:02 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557677957",
+      "sender": "user",
+      "text": "Hi, who am I and what is my health score?",
+      "timestamp": "03:04 am"
+    },
+    {
+      "id": "ch_1788557680107",
+      "sender": "assistant",
+      "text": "Hello Priya Sharma,\n\nYou are **Priya Sharma**, and your health score is **78/100**.\n\nIf you have any specific questions or need further details about your health, feel free to ask!",
+      "timestamp": "03:04 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557689636",
+      "sender": "user",
+      "text": "Can I drink grapefruit juice with my medicines?",
+      "timestamp": "03:04 am"
+    },
+    {
+      "id": "ch_1788557698660",
+      "sender": "assistant",
+      "text": "Here is a review of your **5 Active Prescriptions** for **Priya Sharma**:\n\n1. **Lisinopril 10mg** — *1 tablet, Morning after breakfast* (Blood pressure control)\n2. **Metformin 500mg** — *1 tablet twice daily with meals* (Glycemic regulation)\n3. **Atorvastatin 20mg** — *1 tablet at Bedtime* (Lipid management)\n4. **Vitamin D3 60,000 IU** — *1 softgel weekly on Sunday mornings*\n5. **Aspirin 75mg** — *1 tablet after lunch* (Cardioprotective)\n\n⚠️ **Important Safety Checks**:\n• **Grapefruit Alert**: Avoid grapefruit juice with Atorvastatin as it increases drug concentration.\n• **GI Protection**: Always take Metformin with food to minimize stomach upset.",
+      "timestamp": "03:04 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557705857",
+      "sender": "user",
+      "text": "I have had a severe throbbing headache and mild fever since morning",
+      "timestamp": "03:05 am"
+    },
+    {
+      "id": "ch_1788557714056",
+      "sender": "assistant",
+      "text": "I understand that you're experiencing a severe throbbing headache and mild fever since morning. Here are some steps you can take:\n\n1. **Take Paracetamol**: You can take **Paracetamol 650 mg** as needed (SOS After Food) to help with the headache. Follow the dosage instructions on the packaging or as prescribed by your doctor.\n\n2. **Stay Hydrated**: Drink plenty of fluids to stay hydrated, especially if you have a fever.\n\n3. **Rest**: Get plenty of rest to help your body recover.\n\n4. **Monitor Symptoms**: Keep an eye on your symptoms. If the headache or fever persists or worsens, or if you develop other symptoms like vomiting, severe neck stiffness, or confusion, it's important to seek medical attention.\n\n5. **Follow Up**: Since you have an upcoming cardiology follow-up on May 23, 2025, it might be a good idea to mention these symptoms to Dr. Anil Mehta at your next appointment.\n\nIf your symptoms are severe or concerning, please don't hesitate to contact your healthcare provider for further advice. Take care, Priya!",
+      "timestamp": "03:05 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557746528",
+      "sender": "user",
+      "text": "hello]",
+      "timestamp": "03:05 am"
+    },
+    {
+      "id": "ch_1788557752295",
+      "sender": "assistant",
+      "text": "Hello, Priya! How can I assist you today? You mentioned you're experiencing a severe throbbing headache and mild fever since morning. Is there anything specific you'd like to discuss or any other concerns you have?",
+      "timestamp": "03:05 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557808914",
+      "sender": "user",
+      "text": "hello",
+      "timestamp": "03:06 am"
+    },
+    {
+      "id": "ch_1788557811483",
+      "sender": "assistant",
+      "text": "Hello, Priya! How can I assist you today? You mentioned you're experiencing a severe throbbing headache and mild fever since morning. Is there anything specific you'd like to discuss or any other concerns you have?",
+      "timestamp": "03:06 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788557815854",
+      "sender": "user",
+      "text": "telle me a doctor joke",
+      "timestamp": "03:06 am"
+    },
+    {
+      "id": "ch_1788557818393",
+      "sender": "assistant",
+      "text": "Sure, here’s a light-hearted doctor joke for you:\n\nWhy did the doctor refuse to play hide and seek?\n\nBecause he didn't want to seek someone who was already hard to find!\n\nI hope that brings a smile to your face. How else can I help you today?",
+      "timestamp": "03:06 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788560882725",
+      "sender": "user",
+      "text": "What does borderline eosinophil count mean in my CBC report?",
+      "timestamp": "03:58 am"
+    },
+    {
+      "id": "ch_1788560882742",
+      "sender": "assistant",
+      "text": "Clinical breakdown of your **Complete Blood Count (CBC)** from **20 May 2025**:\n\n• **Hemoglobin (13.2 g/dL)** — **Normal**. Demonstrates healthy red blood cell production and oxygen carriage.\n• **Total WBC Count (6,800 /µL)** — **Normal**. No signs of acute bacterial or viral infection.\n• **Platelet Count (1.85 Lakh/µL)** — **Normal**. Healthy blood clotting function.\n• **Eosinophils (6%)** — **Borderline High** (Reference: 1-6%). This typically indicates mild allergic sensitivity (such as dust or seasonal rhinitis).\n\nOverall, your blood indices are strong and stable.",
+      "timestamp": "03:58 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788562512265",
+      "sender": "user",
+      "text": "what is my name",
+      "timestamp": "04:25 am"
+    },
+    {
+      "id": "ch_1788562514084",
+      "sender": "assistant",
+      "text": "Hello Priya! Your name is Priya Sharma. How can I assist you further today?",
+      "timestamp": "04:25 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788562520051",
+      "sender": "user",
+      "text": "Check medication timing",
+      "timestamp": "04:25 am"
+    },
+    {
+      "id": "ch_1788562529091",
+      "sender": "assistant",
+      "text": "Here is a review of your **5 Active Prescriptions** for **Priya Sharma**:\n\n1. **Lisinopril 10mg** — *1 tablet, Morning after breakfast* (Blood pressure control)\n2. **Metformin 500mg** — *1 tablet twice daily with meals* (Glycemic regulation)\n3. **Atorvastatin 20mg** — *1 tablet at Bedtime* (Lipid management)\n4. **Vitamin D3 60,000 IU** — *1 softgel weekly on Sunday mornings*\n5. **Aspirin 75mg** — *1 tablet after lunch* (Cardioprotective)\n\n⚠️ **Important Safety Checks**:\n• **Grapefruit Alert**: Avoid grapefruit juice with Atorvastatin as it increases drug concentration.\n• **GI Protection**: Always take Metformin with food to minimize stomach upset.",
+      "timestamp": "04:25 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788562552584",
+      "sender": "user",
+      "text": "what was my latest  prescribed medicine",
+      "timestamp": "04:25 am"
+    },
+    {
+      "id": "ch_1788562559873",
+      "sender": "assistant",
+      "text": "It seems like you might be asking about your latest prescribed medicine. Based on your latest clinical record, your latest prescribed medications are:\n\n- **Atorvastatin 20mg** — *1 tablet at Bedtime* (Lipid management)\n- **Vitamin D3 60,000 IU** — *1 softgel weekly on Sunday mornings*\n- **Metformin 500mg** — *1 tablet twice daily with meals* (Glycemic regulation)\n\nIf you have any specific concerns or need further details about these medications, feel free to ask!",
+      "timestamp": "04:25 am",
+      "metadata": null
+    },
+    {
+      "id": "ch_1788562579977",
+      "sender": "user",
+      "text": "Show trend of blood pressure",
+      "timestamp": "04:26 am"
+    },
+    {
+      "id": "ch_1788562589007",
+      "sender": "assistant",
+      "text": "Here is the progression of your **Vitamin D** levels over the last 6 months:\n\n• **December 2024**: 16 ng/mL *(Deficient)*\n• **February 2025**: 20 ng/mL *(Insufficient)*\n• **May 2025**: **28 ng/mL (Normal target achieved)**\n\nYour weekly Vitamin D3 60,000 IU supplementation has successfully raised your serum levels by **+12 ng/mL**. Always take your weekly softgel with a meal containing healthy fats for optimal absorption.",
+      "timestamp": "04:26 am",
+      "metadata": {
+        "type": "chart_widget",
+        "chartType": "vitamin_d_trend",
+        "title": "Vitamin D Levels (Last 6 Months)",
+        "data": [
+          {
+            "month": "Dec",
+            "value": 16
+          },
+          {
+            "month": "Jan",
+            "value": 18
+          },
+          {
+            "month": "Feb",
+            "value": 20
+          },
+          {
+            "month": "Mar",
+            "value": 22
+          },
+          {
+            "month": "Apr",
+            "value": 25
+          },
+          {
+            "month": "May",
+            "value": 28
+          }
+        ],
+        "currentValue": "28 ng/mL",
+        "status": "Normal",
+        "change": "+12 ng/mL overall"
+      }
+    }
+  ],
+  "vitalsTrends": [
+    {
+      "title": "Hemoglobin",
+      "value": "13.2 g/dL",
+      "delta": "+0.8",
+      "isPositive": true,
+      "unit": "g/dL",
+      "status": "Normal",
+      "lastUpdated": "20 May 2025",
+      "data": [
+        11.8,
+        12.2,
+        12.6,
+        12.9,
+        13,
+        13.2
+      ]
+    },
+    {
+      "title": "Vitamin D",
+      "value": "28 ng/mL",
+      "delta": "+6.0",
+      "isPositive": true,
+      "unit": "ng/mL",
+      "status": "Borderline",
+      "lastUpdated": "15 Apr 2025",
+      "data": [
+        16,
+        18,
+        20,
+        22,
+        25,
+        28
+      ]
+    },
+    {
+      "title": "Fasting Blood Sugar",
+      "value": "98 mg/dL",
+      "delta": "-4.0",
+      "isPositive": true,
+      "unit": "mg/dL",
+      "status": "Normal",
+      "lastUpdated": "20 May 2025",
+      "data": [
+        108,
+        105,
+        102,
+        100,
+        99,
+        98
+      ]
+    },
+    {
+      "title": "Weight",
+      "value": "68.5 kg",
+      "delta": "+1.5",
+      "isPositive": false,
+      "unit": "kg",
+      "status": "Monitoring",
+      "lastUpdated": "28 May 2025",
+      "data": [
+        67,
+        67.2,
+        67.5,
+        68,
+        68.2,
+        68.5
+      ]
+    },
+    {
+      "title": "Blood Pressure",
+      "value": "120/80 mmHg",
+      "delta": "-5.0",
+      "isPositive": true,
+      "unit": "mmHg",
+      "status": "Optimal",
+      "lastUpdated": "01 Jun 2025",
+      "data": [
+        130,
+        128,
+        125,
+        122,
+        120,
+        120
+      ]
+    },
+    {
+      "title": "Heart Rate",
+      "value": "72 bpm",
+      "delta": "0.0",
+      "isPositive": true,
+      "unit": "bpm",
+      "status": "Resting Normal",
+      "lastUpdated": "01 Jun 2025",
+      "data": [
+        76,
+        74,
+        75,
+        73,
+        72,
+        72
+      ]
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "sym_0c33256e",
+      "date": "05 Sept 2026",
+      "symptom": "Mild seasonal dryness in throat",
+      "note": "Logged during overall verification",
+      "feeling": "fine",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_01",
+      "date": "18 May 2025",
+      "symptom": "Felt better",
+      "note": "No fever or fatigue",
+      "feeling": "good",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_02",
+      "date": "02 May 2025",
+      "symptom": "Mild fatigue",
+      "note": "Felt tired in the evening",
+      "feeling": "neutral",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_03",
+      "date": "20 Apr 2025",
+      "symptom": "Back pain",
+      "note": "Lower-back pain post-exercise",
+      "feeling": "bad",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_04",
+      "date": "10 Apr 2025",
+      "symptom": "Good energy",
+      "note": "Morning walking routine felt great",
+      "feeling": "good",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_05",
+      "date": "25 Mar 2025",
+      "symptom": "Mild acid reflux",
+      "note": "After spicy dinner, took antacid",
+      "feeling": "neutral",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_06",
+      "date": "12 Mar 2025",
+      "symptom": "Restful sleep",
+      "note": "Woke up refreshed with 8 hrs sleep",
+      "feeling": "good",
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "sym_rahul_01",
+      "date": "04 Mar 2026",
+      "symptom": "Mild fronto-temporal headache",
+      "note": "Resolved after rest and hydration",
+      "feeling": "fine",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "sym_rahul_02",
+      "date": "01 Mar 2026",
+      "symptom": "Normal energy during 5k walk",
+      "note": "Heart rate remained in aerobic target zone",
+      "feeling": "good",
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "sym_ananya_01",
+      "date": "03 Mar 2026",
+      "symptom": "Good morning energy levels",
+      "note": "No cold intolerance or fatigue",
+      "feeling": "great",
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "sym_vikram_01",
+      "date": "04 Mar 2026",
+      "symptom": "Mild knee stiffness on waking",
+      "note": "Eased completely after 10 mins of isometric quadriceps stretches",
+      "feeling": "fine",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "sym_vikram_02",
+      "date": "02 Mar 2026",
+      "symptom": "Climbed 2 flights of stairs comfortably",
+      "note": "No acute joint pain experienced",
+      "feeling": "great",
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "sym_sneha_01",
+      "date": "05 Mar 2026",
+      "symptom": "Easy breathing during 7k endurance run",
+      "note": "No exercise-induced wheeze or tightness",
+      "feeling": "great",
+      "userId": "usr_sneha_05"
+    }
+  ],
+  "insurancePolicy": {
+    "policyStatus": "ACTIVE_VERIFIED",
+    "policyNumber": "POL-HLTH-884219",
+    "insurerName": "Star Health & Allied Insurance",
+    "planTier": "Comprehensive Health PPO (Gold Tier)",
+    "validFrom": "01 Jan 2025",
+    "validUntil": "31 Dec 2025",
+    "totalSumInsured": "₹10,00,000",
+    "remainingSumInsured": "₹8,50,000",
+    "cashlessStatus": "ELIGIBLE_FULL_CASHLESS",
+    "networkHospitalCount": 8500,
+    "subLimits": {
+      "roomRent": "Single Private AC Room (No capping)",
+      "icuCharges": "Covered up to Sum Insured (No sub-limit)",
+      "prePostHospitalization": "60 days pre / 90 days post covered",
+      "dayCareSurgeries": "Covered 100% with no overnight stay requirement"
+    },
+    "tpaInfo": {
+      "tpaName": "Medi Assist TPA Services Ltd.",
+      "preAuthEmail": "preauth@mediassist.in",
+      "tollFree": "1800-425-9449"
+    }
+  },
+  "claimsHistory": [
+    {
+      "id": "CLM-806368",
+      "date": "05 Sept 2026",
+      "type": "Laparoscopic Appendectomy & Inpatient Hospitalization",
+      "hospital": "Network Hospital (Pre-Auth)",
+      "amount": "₹2,20",
+      "approvedAmount": "₹2,20",
+      "status": "Under Investigation",
+      "approvalOdds": 92
+    },
+    {
+      "id": "CLM-884192",
+      "date": "05 May 2025",
+      "type": "Inpatient Hospitalization & Observation",
+      "hospital": "Life Care Hospitals",
+      "amount": "₹45,000",
+      "approvedAmount": "₹41,200",
+      "status": "Approved & Settled",
+      "approvalOdds": 96
+    },
+    {
+      "id": "CLM-772910",
+      "date": "10 May 2025",
+      "type": "Diagnostic Chest X-Ray & ECG Panel",
+      "hospital": "City Diagnostic Center",
+      "amount": "₹4,800",
+      "approvedAmount": "₹4,800",
+      "status": "Pre-Auth Granted",
+      "approvalOdds": 100
+    },
+    {
+      "id": "CLM-992415",
+      "date": "20 May 2025",
+      "type": "Laparoscopic Appendectomy (Emergency Pre-Auth)",
+      "hospital": "Greenview Hospital",
+      "amount": "₹2,20,000",
+      "approvedAmount": "₹1,85,000",
+      "status": "Auto Approved by AI",
+      "approvalOdds": 92
+    }
+  ],
+  "lifestyleReminders": [
+    {
+      "id": "rem_1",
+      "title": "Take medications on time",
+      "subtitle": "Morning Dose: Metformin 500mg, Lisinopril 10mg",
+      "time": "08:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rem_2",
+      "title": "Stay active / Evening Walk",
+      "subtitle": "Walk 30-45 mins in fresh air",
+      "time": "17:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rem_3",
+      "title": "Hydration check",
+      "subtitle": "Drink 2.5 - 3 liters daily",
+      "time": "11:00",
+      "frequency": "Every 2 hours",
+      "enabled": true,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rem_4",
+      "title": "Sleep on time",
+      "subtitle": "Aim for 7 - 8 hours restorative sleep",
+      "time": "22:30",
+      "frequency": "Nightly",
+      "enabled": true,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rem_5",
+      "title": "Post-lunch blood sugar check",
+      "subtitle": "Target: Under 140 mg/dL after meals",
+      "time": "14:30",
+      "frequency": "Weekdays",
+      "enabled": false,
+      "userId": "usr_priya_01"
+    },
+    {
+      "id": "rem_rahul_01",
+      "title": "Morning BP Reading",
+      "subtitle": "Rest for 5 mins before taking cuff measurement",
+      "time": "07:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rem_rahul_02",
+      "title": "Evening Brisk Walk",
+      "subtitle": "Target 45 mins moderate intensity walking",
+      "time": "18:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rem_rahul_03",
+      "title": "Low Sodium Meal Check",
+      "subtitle": "Limit salt intake to < 5g daily",
+      "time": "12:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_rahul_02"
+    },
+    {
+      "id": "rem_ananya_01",
+      "title": "Fasting Levothyroxine",
+      "subtitle": "Take 30 mins before tea or breakfast",
+      "time": "06:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rem_ananya_02",
+      "title": "Hydration Goal (2.5L)",
+      "subtitle": "Fill 1L water bottle",
+      "time": "09:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rem_ananya_03",
+      "title": "Evening Yoga / Stretching",
+      "subtitle": "25 minutes thyroid-stimulating asanas",
+      "time": "18:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_ananya_03"
+    },
+    {
+      "id": "rem_vikram_01",
+      "title": "Quadriceps Isometric Stretches",
+      "subtitle": "3 sets of 10 leg extensions",
+      "time": "08:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rem_vikram_02",
+      "title": "Post-Lunch Calcium Dose",
+      "subtitle": "Take with full glass of water",
+      "time": "14:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rem_vikram_03",
+      "title": "Evening Low-Impact Walk",
+      "subtitle": "Flat track walking for 30 mins",
+      "time": "17:30",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_vikram_04"
+    },
+    {
+      "id": "rem_sneha_01",
+      "title": "Morning Peak Flow Reading",
+      "subtitle": "Blow 3 times and log highest value",
+      "time": "07:15",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "rem_sneha_02",
+      "title": "Pre-Workout Dynamic Warmup",
+      "subtitle": "15 mins warmup before track run",
+      "time": "06:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_sneha_05"
+    },
+    {
+      "id": "rem_sneha_03",
+      "title": "Hydration Target (3 Liters)",
+      "subtitle": "Electrolyte intake post workout",
+      "time": "11:00",
+      "frequency": "Daily",
+      "enabled": true,
+      "userId": "usr_sneha_05"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_priya_01",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "password": "password123",
+      "phone": "+91 98765 43210",
+      "dob": "29 May 1996",
+      "age": 29,
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "address": "Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+      "emergencyContact": "+91 91234 56789 (Mother)",
+      "memberSince": "20 May 2025",
+      "healthTrackId": "HTA-293847",
+      "profileCompletion": 92,
+      "healthScore": 78,
+      "healthScoreStatus": "Good",
+      "healthScoreTrend": "+6 points from last month",
+      "focusArea": "Diabetic & Preventive Health",
+      "allergies": "Sulfonamides, Seasonal Dust",
+      "chronicConditions": [
+        "Mild Prediabetes",
+        "Seasonal Rhinitis"
+      ]
+    },
+    {
+      "id": "usr_rahul_02",
+      "name": "Rahul Verma",
+      "email": "rahul.verma@email.com",
+      "password": "password123",
+      "phone": "+91 98220 11223",
+      "dob": "14 Aug 1983",
+      "age": 42,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "address": "14th Main, Indiranagar, Bengaluru, Karnataka 560038",
+      "emergencyContact": "+91 98220 99887 (Spouse)",
+      "memberSince": "10 Feb 2025",
+      "healthTrackId": "HTA-519284",
+      "profileCompletion": 95,
+      "healthScore": 84,
+      "healthScoreStatus": "Optimal",
+      "healthScoreTrend": "+4 points from last month",
+      "focusArea": "Cardiovascular & Hypertension Care",
+      "allergies": "Penicillin",
+      "chronicConditions": [
+        "Primary Hypertension"
+      ]
+    },
+    {
+      "id": "usr_ananya_03",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@email.com",
+      "password": "password123",
+      "phone": "+91 97112 33445",
+      "dob": "03 Dec 1990",
+      "age": 35,
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "address": "Anna Nagar West, Chennai, Tamil Nadu 600040",
+      "emergencyContact": "+91 97112 55667 (Father)",
+      "memberSince": "15 Jan 2025",
+      "healthTrackId": "HTA-684912",
+      "profileCompletion": 88,
+      "healthScore": 91,
+      "healthScoreStatus": "Excellent",
+      "healthScoreTrend": "+2 points from last month",
+      "focusArea": "Pulmonary & Asthma Management",
+      "allergies": "Aspirin, Shellfish",
+      "chronicConditions": [
+        "Mild Bronchial Asthma"
+      ]
+    },
+    {
+      "id": "usr_vikram_04",
+      "name": "Vikramaditya Rao",
+      "email": "vikram.rao@email.com",
+      "password": "password123",
+      "phone": "+91 99301 44556",
+      "dob": "22 Oct 1964",
+      "age": 61,
+      "gender": "Male",
+      "bloodGroup": "AB+",
+      "address": "Bandra West, Mumbai, Maharashtra 400050",
+      "emergencyContact": "+91 99301 77889 (Son)",
+      "memberSince": "05 Mar 2025",
+      "healthTrackId": "HTA-104938",
+      "profileCompletion": 96,
+      "healthScore": 69,
+      "healthScoreStatus": "Attention Needed",
+      "healthScoreTrend": "+1 point from last month",
+      "focusArea": "Senior Care & Joint Rehab",
+      "allergies": "None Known",
+      "chronicConditions": [
+        "Osteoarthritis",
+        "Type 2 Diabetes"
+      ]
+    },
+    {
+      "id": "usr_sneha_05",
+      "name": "Sneha Patel",
+      "email": "sneha.patel@email.com",
+      "password": "password123",
+      "phone": "+91 98450 66778",
+      "dob": "18 Jun 1999",
+      "age": 26,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "address": "Bodakdev, SG Highway, Ahmedabad, Gujarat 380054",
+      "emergencyContact": "+91 98450 88990 (Sister)",
+      "memberSince": "01 Apr 2025",
+      "healthTrackId": "HTA-739201",
+      "profileCompletion": 90,
+      "healthScore": 88,
+      "healthScoreStatus": "Optimal",
+      "healthScoreTrend": "+5 points from last month",
+      "focusArea": "Endocrine & Routine Wellness",
+      "allergies": "Peanuts",
+      "chronicConditions": [
+        "Hypothyroidism"
+      ]
+    },
+    {
+      "id": "usr_35f468e8",
+      "name": "Dr. Test Patient",
+      "email": "testuser_6104@healthtrack.test",
+      "password": "securePassword123",
+      "phone": "+91 99999 88888",
+      "dob": "01 Jan 1995",
+      "age": 33,
+      "gender": "Other",
+      "bloodGroup": "AB-",
+      "address": "Cyber Towers, Hitec City, Hyderabad",
+      "emergencyContact": "+91 88888 77777 (Emergency Care Unit)",
+      "memberSince": "5 Sept 2026",
+      "healthTrackId": "HTA-487623",
+      "profileCompletion": 85,
+      "healthScore": 82,
+      "healthScoreStatus": "Good",
+      "healthScoreTrend": "+2 points",
+      "focusArea": "Personal Health & Wellness",
+      "chronicConditions": []
+    }
+  ]
+}
