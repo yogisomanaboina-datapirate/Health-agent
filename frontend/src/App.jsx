@@ -25,6 +25,7 @@ import HospitalFinder from './pages/HospitalFinder.jsx';
 import DoctorSummary from './pages/DoctorSummary.jsx';
 import ProfileSettings from './pages/ProfileSettings.jsx';
 import UploadDocument from './pages/UploadDocument.jsx';
+import PresentationViewer from './pages/PresentationViewer.jsx';
 
 // Authentication Page
 import AuthPage from './pages/AuthPage.jsx';
@@ -47,6 +48,9 @@ function MainLayout() {
         {/* Scrollable Page Body */}
         <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8">
           <div className="max-w-7xl mx-auto">
+            {/* Project Pitch & Interactive Presentation Webapp */}
+            {activeTab === 'presentation' && <PresentationViewer />}
+
             {/* Core Operational Agents & Hub */}
             {activeTab === 'multi-agent-hub' && <MultiAgentHub />}
             {activeTab === 'ambulance-response' && <AmbulanceResponse />}

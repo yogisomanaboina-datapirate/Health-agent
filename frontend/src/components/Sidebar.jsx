@@ -12,12 +12,20 @@ import {
   CalendarClock,
   BotMessageSquare,
   Settings,
-  Sparkles
+  Sparkles,
+  Presentation
 } from 'lucide-react';
 import { useHealth } from '../context/HealthContext.jsx';
 
 export default function Sidebar() {
   const { activeTab, setActiveTab } = useHealth();
+
+  const presentationView = {
+    id: 'presentation',
+    label: '📽️ Project Presentation',
+    icon: Presentation,
+    badge: 'Pitch Deck'
+  };
 
   const primaryAgents = [
     { id: 'ambulance-response', label: '1. Ambulance & Hospitals', icon: Siren, badge: 'Live SOS' },
@@ -58,6 +66,26 @@ export default function Sidebar() {
             <div className="text-[10px] text-blue-400 font-medium">Autonomous Multi-Agent AI</div>
           </div>
         </button>
+
+        {/* Highlighted Project Presentation Pitch Deck Button */}
+        <div>
+          <button
+            onClick={() => setActiveTab('presentation')}
+            className={`w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-semibold transition-all border ${
+              activeTab === 'presentation'
+                ? 'bg-gradient-to-r from-sky-600 to-indigo-600 text-white border-sky-400 shadow-lg shadow-sky-500/30'
+                : 'bg-slate-800/80 hover:bg-slate-800 text-sky-300 border-sky-500/30 hover:border-sky-400/60'
+            }`}
+          >
+            <div className="flex items-center gap-2.5">
+              <Presentation className="w-4 h-4 text-sky-400" />
+              <span>📽️ Pitch Presentation</span>
+            </div>
+            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-300 border border-sky-500/40">
+              Live PPT
+            </span>
+          </button>
+        </div>
 
         {/* Section 1: The 5 Core Operational AI Agents */}
         <div>
